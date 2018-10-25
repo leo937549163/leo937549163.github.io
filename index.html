@@ -8,7 +8,7 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="assets/built/screen.css?v=1e679d78e3">
+    <link rel="stylesheet" type="text/css" href="assets/built/screen.css?v=4db1b433b2">
 
     <meta name="description" content="Thoughts, stories and ideas.">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -58,7 +58,7 @@
 }
     </script>
 
-    <script src="public/ghost-sdk.js?v=1e679d78e3"></script>
+    <script src="public/ghost-sdk.js?v=4db1b433b2"></script>
 <script>
 ghost.init({
 	clientId: "ghost-frontend",
@@ -106,6 +106,41 @@ ghost.init({
 
         <div class="post-feed">
 
+                <article class="post-card post tag-random featured">
+        <a class="post-card-image-link" href="generalized-second-price-auction/">
+            <div class="post-card-image" style="background-image: url(content/images/2018/10/rawpixel-1055781-unsplash.jpg)"></div>
+        </a>
+    <div class="post-card-content">
+        <a class="post-card-content-link" href="generalized-second-price-auction/">
+            <header class="post-card-header">
+                    <span class="post-card-tags">Random</span>
+                <h2 class="post-card-title">Auction: Vickrey–Clarke–Groves (VCG) 
+ or Generalized Second Price (GSP)?</h2>
+            </header>
+            <section class="post-card-excerpt">
+                <p>test</p>
+            </section>
+        </a>
+        <footer class="post-card-meta">
+
+            <ul class="author-list">
+                <li class="author-list-item">
+
+                    <div class="author-name-tooltip">
+                        Chenglin Lu
+                    </div>
+
+                        <a href="author/chenglin/" class="static-avatar"><img class="author-profile-image" src="content/images/2018/10/avatar.jpeg" alt="Chenglin Lu"></a>
+                </li>
+            </ul>
+
+            <span class="reading-time">1 min read</span>
+
+        </footer>
+    </div>
+</article>
+
+
                 <article class="post-card post tag-reinforcement-learning featured">
         <a class="post-card-image-link" href="test/">
             <div class="post-card-image" style="background-image: url(content/images/2018/10/carl-raw-584973-unsplash.jpg)"></div>
@@ -117,7 +152,7 @@ ghost.init({
                 <h2 class="post-card-title">The Multi-Armed Bandit Problem</h2>
             </header>
             <section class="post-card-excerpt">
-                <p>test</p>
+                <p>Problem SetupThe multi-armed bandit problem can be described as a Markov decision process, a tuple $\langle \mathcal{X}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma \rangle$, with only one state.$\mathcal{X} = {x}</p>
             </section>
         </a>
         <footer class="post-card-meta">
@@ -174,7 +209,7 @@ ghost.init({
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="assets/built/jquery.fitvids.js?v=1e679d78e3"></script>
+    <script type="text/javascript" src="assets/built/jquery.fitvids.js?v=4db1b433b2"></script>
 
     <script>
         // maxPages is a global variable that is needed to determine
@@ -182,10 +217,17 @@ ghost.init({
         // we reached the last page already.
         var maxPages = parseInt('1');
     </script>
-    <script src="assets/built/infinitescroll.js?v=1e679d78e3"></script>
+    <script src="assets/built/infinitescroll.js?v=4db1b433b2"></script>
 
     
 
-    
+    <script type="text/javascript" async src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [["$", "$"], ["\\(", "\\)"]],
+        processEscapes: true
+    }
+});
+</script>
 
 </body>
