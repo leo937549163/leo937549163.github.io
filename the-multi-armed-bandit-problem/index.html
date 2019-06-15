@@ -8,34 +8,52 @@
     <meta name="HandheldFriendly" content="True">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="../assets/built/screen.css?v=fc98143732">
+    <link rel="stylesheet" type="text/css" href="../assets/built/screen.css?v=84533f8c96">
 
     <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
     <link rel="canonical" href="index.html">
     <meta name="referrer" content="no-referrer-when-downgrade">
     <link rel="amphtml" href="amp/index.html">
     
-    <meta property="og:site_name" content="TBD">
+    <meta property="og:site_name" content="苦しいことは繊細に映る高画質レンズで">
     <meta property="og:type" content="article">
     <meta property="og:title" content="The Multi-Armed Bandit Problem">
-    <meta property="og:description" content="Problem SetupThe multi-armed bandit problem can be described as a Markov decision process, a tuple $\langle \mathcal{X}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma \rangle$, with only one state.$\mathcal{X} = {x}$ is a finite set of states$\mathcal{A}$ is a finite set of actions$\mathcal{P}$ is">
-    <meta property="og:url" content="http://localhost:2368/the-multi-armed-bandit-problem/">
-    <meta property="og:image" content="http://localhost:2368/content/images/2018/10/carl-raw-584973-unsplash.jpg">
-    <meta property="article:published_time" content="2018-10-21T06:20:35.000Z">
-    <meta property="article:modified_time" content="2018-11-08T09:07:04.000Z">
-    <meta property="article:tag" content="Reinforcement Learning">
-    
+    <meta property="og:description" content="Problem Setup
+The multi-armed bandit problem can be described as a Markov decision process, a
+tuple $\langle \mathcal{X}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma
+\rangle$, with only one state.
+
+ * $\mathcal{X} = {x}$ is a finite set of states
+ * $\mathcal{A}$ is a finite set of actions
+ * $\mathcal{P}$ is a state transition probability matrix
+ * $\mathcal{R}$ is a reward function, the immediate reward function $r:
+   \mathcal{X} \times \mathcal{A} \to \mathbb{R}$
+ * $\gamma$ is a discount ">
+    <meta property="og:url" content="https://blog.chenglin.lu/the-multi-armed-bandit-problem/">
+    <meta property="og:image" content="https://blog.chenglin.lu/content/images/2019/06/carl-raw-584973-unsplash.jpg">
+    <meta property="article:published_time" content="2018-10-20T08:38:00.000Z">
+    <meta property="article:modified_time" content="2019-06-15T19:07:30.000Z">
+    <meta property="article:publisher" content="https://www.facebook.com/ghost">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="The Multi-Armed Bandit Problem">
-    <meta name="twitter:description" content="Problem SetupThe multi-armed bandit problem can be described as a Markov decision process, a tuple $\langle \mathcal{X}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma \rangle$, with only one state.$\mathcal{X} = {x}$ is a finite set of states$\mathcal{A}$ is a finite set of actions$\mathcal{P}$ is">
-    <meta name="twitter:url" content="http://localhost:2368/the-multi-armed-bandit-problem/">
-    <meta name="twitter:image" content="http://localhost:2368/content/images/2018/10/carl-raw-584973-unsplash.jpg">
+    <meta name="twitter:description" content="Problem Setup
+The multi-armed bandit problem can be described as a Markov decision process, a
+tuple $\langle \mathcal{X}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma
+\rangle$, with only one state.
+
+ * $\mathcal{X} = {x}$ is a finite set of states
+ * $\mathcal{A}$ is a finite set of actions
+ * $\mathcal{P}$ is a state transition probability matrix
+ * $\mathcal{R}$ is a reward function, the immediate reward function $r:
+   \mathcal{X} \times \mathcal{A} \to \mathbb{R}$
+ * $\gamma$ is a discount ">
+    <meta name="twitter:url" content="https://blog.chenglin.lu/the-multi-armed-bandit-problem/">
+    <meta name="twitter:image" content="https://blog.chenglin.lu/content/images/2019/06/carl-raw-584973-unsplash.jpg">
     <meta name="twitter:label1" content="Written by">
     <meta name="twitter:data1" content="Chenglin Lu">
-    <meta name="twitter:label2" content="Filed under">
-    <meta name="twitter:data2" content="Reinforcement Learning">
-    <meta property="og:image:width" content="5119">
-    <meta property="og:image:height" content="3413">
+    <meta name="twitter:site" content="@tryghost">
+    <meta property="og:image:width" content="2000">
+    <meta property="og:image:height" content="1333">
     
     <script type="application/ld+json">
 {
@@ -43,10 +61,10 @@
     "@type": "Article",
     "publisher": {
         "@type": "Organization",
-        "name": "TBD",
+        "name": "苦しいことは繊細に映る高画質レンズで",
         "logo": {
             "@type": "ImageObject",
-            "url": "http://localhost:2368/favicon.ico",
+            "url": "https://blog.chenglin.lu/favicon.ico",
             "width": 60,
             "height": 60
         }
@@ -56,44 +74,36 @@
         "name": "Chenglin Lu",
         "image": {
             "@type": "ImageObject",
-            "url": "http://localhost:2368/content/images/2018/10/avatar.jpeg",
+            "url": "https://blog.chenglin.lu/content/images/2019/06/avatar.jpeg",
             "width": 400,
             "height": 400
         },
-        "url": "http://localhost:2368/author/chenglin/",
+        "url": "https://blog.chenglin.lu/author/chenglin/",
         "sameAs": []
     },
     "headline": "The Multi-Armed Bandit Problem",
-    "url": "http://localhost:2368/the-multi-armed-bandit-problem/",
-    "datePublished": "2018-10-21T06:20:35.000Z",
-    "dateModified": "2018-11-08T09:07:04.000Z",
+    "url": "https://blog.chenglin.lu/the-multi-armed-bandit-problem/",
+    "datePublished": "2018-10-20T08:38:00.000Z",
+    "dateModified": "2019-06-15T19:07:30.000Z",
     "image": {
         "@type": "ImageObject",
-        "url": "http://localhost:2368/content/images/2018/10/carl-raw-584973-unsplash.jpg",
-        "width": 5119,
-        "height": 3413
+        "url": "https://blog.chenglin.lu/content/images/2019/06/carl-raw-584973-unsplash.jpg",
+        "width": 2000,
+        "height": 1333
     },
-    "keywords": "Reinforcement Learning",
-    "description": "Problem SetupThe multi-armed bandit problem can be described as a Markov decision process, a tuple $\\langle \\mathcal{X}, \\mathcal{A}, \\mathcal{P}, \\mathcal{R}, \\gamma \\rangle$, with only one state.$\\mathcal{X} &#x3D; {x}$ is a finite set of states$\\mathcal{A}$ is a finite set of actions$\\mathcal{P}$ is",
+    "description": "Problem Setup\nThe multi-armed bandit problem can be described as a Markov decision process, a\ntuple $\\langle \\mathcal{X}, \\mathcal{A}, \\mathcal{P}, \\mathcal{R}, \\gamma\n\\rangle$, with only one state.\n\n * $\\mathcal{X} &#x3D; {x}$ is a finite set of states\n * $\\mathcal{A}$ is a finite set of actions\n * $\\mathcal{P}$ is a state transition probability matrix\n * $\\mathcal{R}$ is a reward function, the immediate reward function $r:\n   \\mathcal{X} \\times \\mathcal{A} \\to \\mathbb{R}$\n * $\\gamma$ is a discount ",
     "mainEntityOfPage": {
         "@type": "WebPage",
-        "@id": "http://localhost:2368/"
+        "@id": "https://blog.chenglin.lu/"
     }
 }
     </script>
 
-    <script src="../public/ghost-sdk.js?v=fc98143732"></script>
-<script>
-ghost.init({
-	clientId: "ghost-frontend",
-	clientSecret: "084063e70555"
-});
-</script>
-    <meta name="generator" content="Ghost 2.2">
-    <link rel="alternate" type="application/rss+xml" title="TBD" href="../rss/index.html">
+    <meta name="generator" content="Ghost 2.23">
+    <link rel="alternate" type="application/rss+xml" title="苦しいことは繊細に映る高画質レンズで" href="../rss/index.html">
 
 </head>
-<body class="post-template tag-reinforcement-learning">
+<body class="post-template">
 
     <div class="site-wrapper">
 
@@ -103,18 +113,20 @@ ghost.init({
     <div class="inner">
         <nav class="site-nav">
     <div class="site-nav-left">
-                <a class="site-nav-logo" href="../">TBD</a>
+                <a class="site-nav-logo" href="../">苦しいことは繊細に映る高画質レンズで</a>
             <ul class="nav" role="menu">
     <li class="nav-home" role="menuitem"><a href="../">Home</a></li>
-    <li class="nav-reinforcement-learning" role="menuitem"><a href="../tag/reinforcement-learning/">Reinforcement Learning</a></li>
-    <li class="nav-author" role="menuitem"><a href="../author/chenglin/">Author</a></li>
 </ul>
 
     </div>
     <div class="site-nav-right">
         <div class="social-links">
+                <a class="social-link social-link-fb" href="https://www.facebook.com/ghost" title="Facebook" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path></svg>
+</a>
+                <a class="social-link social-link-tw" href="https://twitter.com/tryghost" title="Twitter" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"></path></svg>
+</a>
         </div>
-            <a class="rss-button" href="https://feedly.com/i/subscription/feed/http://localhost:2368/rss/" title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"></circle><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"></path></svg>
+            <a class="rss-button" href="https://feedly.com/i/subscription/feed/https://blog.chenglin.lu/rss/" title="RSS" target="_blank" rel="noopener"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24"><circle cx="6.18" cy="17.82" r="2.18"></circle><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"></path></svg>
 </a>
     </div>
 </nav>
@@ -125,25 +137,80 @@ ghost.init({
 <main id="site-main" class="site-main outer">
     <div class="inner">
 
-        <article class="post-full post tag-reinforcement-learning featured ">
+        <article class="post-full post featured ">
 
             <header class="post-full-header">
                 <section class="post-full-meta">
                     <time class="post-full-meta-date" datetime="2018-10-20">20 October 2018</time>
-                        <span class="date-divider">/</span> <a href="../tag/reinforcement-learning/">Reinforcement Learning</a>
                 </section>
                 <h1 class="post-full-title">The Multi-Armed Bandit Problem</h1>
             </header>
 
-            <figure class="post-full-image" style="background-image: url(../content/images/2018/10/carl-raw-584973-unsplash.jpg)">
+            <figure class="post-full-image">
+                <img srcset="../content/images/size/w300/2019/06/carl-raw-584973-unsplash.jpg 300w,
+                           ../content/images/size/w600/2019/06/carl-raw-584973-unsplash.jpgg 600w,
+                          ../content/images/size/w1000/2019/06/carl-raw-584973-unsplash.jpgpg 1000w,
+                         ../content/images/size/w2000/2019/06/carl-raw-584973-unsplash.jpgjpg 2000w" sizes="(max-width: 800px) 400px,
+                            (max-width: 1170px) 700px,
+                            1400px" src="../content/images/size/w2000/2019/06/carl-raw-584973-unsplash.jpg" alt="The Multi-Armed Bandit Problem">
             </figure>
 
             <section class="post-full-content">
                 <div class="post-content">
-                    <h2 id="problem-setup">Problem Setup</h2><p>The multi-armed bandit problem can be described as a Markov decision process, a tuple $\langle \mathcal{X}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma \rangle$, with only one state.</p><ul><li>$\mathcal{X} = {x}$ is a finite set of states</li><li>$\mathcal{A}$ is a finite set of actions</li><li>$\mathcal{P}$ is a state transition probability matrix</li><li>$\mathcal{R}$ is a reward function, the immediate reward function $r: \mathcal{X} \times \mathcal{A} \to \mathbb{R}$</li><li>$\gamma$ is a discount factor $\gamma \in [0, 1]$. It is called undiscounted if $\gamma =1$.</li></ul><p>$\pi :  \mathcal{X} \to \mathcal{A}$ is the policy; $Q^\pi : \mathcal{X} \times \mathcal{A} \to \mathbb{R}$ is the action-value function.</p><p>$$\begin{align} Q^\pi(x, a) &amp;= \mathbb{E} [ \sum_{t=0}^{\infty} \gamma^t R_{t+1}\vert x, a] \\ &amp;= \mathbb{E} [  \sum_{t=0}^{\infty} R_{t+1}\vert x, a] &amp; \text{let}\ \gamma = 1 \end{align}$$</p><p>The value function $V^\pi : \mathcal{X} \to \mathbb{R}$ is (when $\gamma=1$):</p><p>$$\begin{align} V^\pi(x) = \mathbb{E} [  \sum_{t=0}^{\infty} R_{t+1}\vert x] \quad  x \in \mathcal{X} \end{align}$$</p><p>The optimal value and action value function is:</p><p>$$\begin{align} V^*(x) = \sup_{a \in \mathcal{A}} Q^*(x, a) \quad  x \in \mathcal{X} \end{align}$$</p><p>We can minimize the total regret as a proxy to maximize the cumulative reward:</p><h2 id="monte-carlo-method">Monte-Carlo Method</h2><p>The idea is that one can estimate the value of a state by computing sample means</p><p>$$\hat Q_{t}(x,a)=\frac {1} {N_t(x,a)}  \sum_{\tau=0}^{t} r_{\tau} \unicode{x1D7D9}_{a_t = a}$$</p><p>which can easily derive the so-called <strong>every-visit Monte-Carlo Method</strong>:</p><p>$$\hat Q_{t+1}(x,a)=\hat Q_t(x,a)+\frac {1} {N_{t+1}(x,a)}(r_{t+1} - \hat Q_t(x,a)) \unicode{x1D7D9}_{a_t = a}$$</p><h2 id="greedy-algorithm">Greedy Algorithm</h2><h3 id="-epsilon-greedy-exploration-strategy-">$\epsilon$-greedy (exploration) strategy:</h3><ul><li>Let next action $a_{t+1} = \underset{a \in \mathcal{A}}{\arg\max} \hat{Q}_t(x, a)$ with probability $1-\epsilon$</li><li>Draw next action $a_{t+1}$ randomly with probability $\epsilon$</li></ul><h3 id="boltzmann-exploration">Boltzmann exploration</h3><ul><li>Draw next action $a_{t+1}$ from the multinomial distribution $\frac {exp(\beta \hat{Q}_t(x, a))} {\sum exp(\beta \hat{Q}_t(x, a))}$</li></ul><div class="aspect-ratio">
-<iframe frameborder="0" scrolling="no" src="https://chenglin.lu/the-multi-armed-bandit-problem/tmp.html">
-</iframe>
-</div><h1 id="references">References</h1><ul><li><a href="https://lilianweng.github.io/lil-log/2018/01/23/the-multi-armed-bandit-problem-and-its-solutions.html">https://lilianweng.github.io/lil-log/2018/01/23/the-multi-armed-bandit-problem-and-its-solutions.html</a></li></ul>
+                    <!--kg-card-begin: markdown--><h2 id="problemsetup">Problem Setup</h2>
+<p>The multi-armed bandit problem can be described as a Markov decision process, a tuple $\langle \mathcal{X}, \mathcal{A}, \mathcal{P}, \mathcal{R}, \gamma \rangle$, with only one state.</p>
+<ul>
+<li>$\mathcal{X} = {x}$ is a finite set of states</li>
+<li>$\mathcal{A}$ is a finite set of actions</li>
+<li>$\mathcal{P}$ is a state transition probability matrix</li>
+<li>$\mathcal{R}$ is a reward function, the immediate reward function $r: \mathcal{X} \times \mathcal{A} \to \mathbb{R}$</li>
+<li>$\gamma$ is a discount factor $\gamma \in [0, 1]$. It is called undiscounted if $\gamma=1$.</li>
+</ul>
+<p>$\pi :  \mathcal{X} \to \mathcal{A}$ is the policy; $Q^\pi : \mathcal{X} \times \mathcal{A} \to \mathbb{R}$ is the action-value function.</p>
+<p>$$<br>
+\begin{align}<br>
+Q^\pi(x, a)<br>
+&amp;= \mathbb{E} [\sum_{t=0}^{\infty} \gamma^t R_{t+1}\vert x, a] \newline<br>
+&amp;= \mathbb{E} [\sum_{t=0}^{\infty} R_{t+1}\vert x, a] &amp; \text{let}\ \gamma = 1<br>
+\end{align}<br>
+$$</p>
+<p>The value function $V^\pi : \mathcal{X} \to \mathbb{R}$ is (when $\gamma=1$):</p>
+<p>$$<br>
+\begin{align}<br>
+V^\pi(x) = \mathbb{E} [\sum_{t=0}^{\infty} R_{t+1}\vert x] \quad x \in \mathcal{X}<br>
+\end{align}<br>
+$$</p>
+<p>The optimal value and action value function is:</p>
+<p>$$<br>
+\begin{align}<br>
+V^*(x) = \sup_{a \in \mathcal{A}} Q^*(x, a) \quad x \in \mathcal{X}<br>
+\end{align}<br>
+$$</p>
+<p>We can minimize the total regret as a proxy to maximize the cumulative reward:</p>
+<h2 id="montecarlomethod">Monte-Carlo Method</h2>
+<p>The idea is that one can estimate the value of a state by computing sample means<br>
+$$<br>
+\hat Q_{t}(x,a)=\frac {1} {N_t(x,a)}  \sum_{\tau=0}^{t} r_{\tau} \unicode{x1D7D9}_{a_t = a}<br>
+$$</p>
+<p>which can easily derive the so-called <strong>every-visit Monte-Carlo Method</strong>:<br>
+$$<br>
+\hat Q_{t+1}(x,a)=\hat Q_t(x,a)+\frac {1} {N_{t+1}(x,a)}(r_{t+1} - \hat Q_t(x,a)) \unicode{x1D7D9}_{a_t = a}<br>
+$$</p>
+<h2 id="greedyalgorithm">Greedy Algorithm</h2>
+<h3 id="epsilongreedyexplorationstrategy">$\epsilon$-greedy (exploration) strategy</h3>
+<ul>
+<li>Let next action $a_{t+1} = \underset{a \in \mathcal{A}}{\arg\max} \hat{Q}_t(x, a)$ with probability $1-\epsilon$</li>
+<li>Draw next action $a_{t+1}$ randomly with probability $\epsilon$</li>
+</ul>
+<h3 id="boltzmannexploration">Boltzmann exploration</h3>
+<ul>
+<li>Draw next action $a_{t+1}$ from the multinomial distribution $\frac {exp(\beta \hat{Q}_t(x, a))} {\sum exp(\beta \hat{Q}_t(x, a))}$</li>
+</ul>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://lilianweng.github.io/lil-log/2018/01/23/the-multi-armed-bandit-problem-and-its-solutions.html">https://lilianweng.github.io/lil-log/2018/01/23/the-multi-armed-bandit-problem-and-its-solutions.html</a></li>
+</ul>
+<!--kg-card-end: markdown-->
                 </div>
             </section>
 
@@ -153,7 +220,7 @@ ghost.init({
 
                     
 <section class="author-card">
-        <img class="author-profile-image" src="../content/images/2018/10/avatar.jpeg" alt="Chenglin Lu">
+        <img class="author-profile-image" src="../content/images/size/w100/2019/06/avatar.jpeg" alt="Chenglin Lu">
     <section class="author-card-content">
         <h4 class="author-card-name"><a href="../author/chenglin/">Chenglin Lu</a></h4>
             <p>Read <a href="../author/chenglin/">more posts</a> by this author.</p>
@@ -176,39 +243,6 @@ ghost.init({
     <div class="inner">
         <div class="read-next-feed">
 
-                <article class="post-card post tag-random featured">
-        <a class="post-card-image-link" href="../autction-vcg-or-gsf/">
-            <div class="post-card-image" style="background-image: url(../content/images/2018/10/rawpixel-1055781-unsplash.jpg)"></div>
-        </a>
-    <div class="post-card-content">
-        <a class="post-card-content-link" href="../autction-vcg-or-gsf/">
-            <header class="post-card-header">
-                    <span class="post-card-tags">Random</span>
-                <h2 class="post-card-title">Auction: Vickrey–Clarke–Groves (VCG) 
- or Generalized Second Price (GSP)?</h2>
-            </header>
-            <section class="post-card-excerpt">
-                <p></p>
-            </section>
-        </a>
-        <footer class="post-card-meta">
-
-            <ul class="author-list">
-                <li class="author-list-item">
-
-                    <div class="author-name-tooltip">
-                        Chenglin Lu
-                    </div>
-
-                        <a href="../author/chenglin/" class="static-avatar"><img class="author-profile-image" src="../content/images/2018/10/avatar.jpeg" alt="Chenglin Lu"></a>
-                </li>
-            </ul>
-
-            <span class="reading-time">1 min read</span>
-
-        </footer>
-    </div>
-</article>
 
 
         </div>
@@ -218,7 +252,7 @@ ghost.init({
 <div class="floating-header">
     <div class="floating-header-logo">
         <a href="../">
-            <span>TBD</span>
+            <span>苦しいことは繊細に映る高画質レンズで</span>
         </a>
     </div>
     <span class="floating-header-divider">—</span>
@@ -228,10 +262,10 @@ ghost.init({
     <path d="M7.5 15.5V4a1.5 1.5 0 1 1 3 0v4.5h2a1 1 0 0 1 1 1h2a1 1 0 0 1 1 1H18a1.5 1.5 0 0 1 1.5 1.5v3.099c0 .929-.13 1.854-.385 2.748L17.5 23.5h-9c-1.5-2-5.417-8.673-5.417-8.673a1.2 1.2 0 0 1 1.76-1.605L7.5 15.5zm6-6v2m-3-3.5v3.5m6-1v2"></path>
 </svg>
 </div>
-        <a class="floating-header-share-tw" href="https://twitter.com/share?text=The%20Multi-Armed%20Bandit%20Problem&amp;url=http://localhost:2368/the-multi-armed-bandit-problem/" onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
+        <a class="floating-header-share-tw" href="https://twitter.com/share?text=The%20Multi-Armed%20Bandit%20Problem&amp;url=https://blog.chenglin.lu/the-multi-armed-bandit-problem/" onclick="window.open(this.href, 'share-twitter', 'width=550,height=235');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M30.063 7.313c-.813 1.125-1.75 2.125-2.875 2.938v.75c0 1.563-.188 3.125-.688 4.625a15.088 15.088 0 0 1-2.063 4.438c-.875 1.438-2 2.688-3.25 3.813a15.015 15.015 0 0 1-4.625 2.563c-1.813.688-3.75 1-5.75 1-3.25 0-6.188-.875-8.875-2.625.438.063.875.125 1.375.125 2.688 0 5.063-.875 7.188-2.5-1.25 0-2.375-.375-3.375-1.125s-1.688-1.688-2.063-2.875c.438.063.813.125 1.125.125.5 0 1-.063 1.5-.25-1.313-.25-2.438-.938-3.313-1.938a5.673 5.673 0 0 1-1.313-3.688v-.063c.813.438 1.688.688 2.625.688a5.228 5.228 0 0 1-1.875-2c-.5-.875-.688-1.813-.688-2.75 0-1.063.25-2.063.75-2.938 1.438 1.75 3.188 3.188 5.25 4.25s4.313 1.688 6.688 1.813a5.579 5.579 0 0 1 1.5-5.438c1.125-1.125 2.5-1.688 4.125-1.688s3.063.625 4.188 1.813a11.48 11.48 0 0 0 3.688-1.375c-.438 1.375-1.313 2.438-2.563 3.188 1.125-.125 2.188-.438 3.313-.875z"></path></svg>
         </a>
-        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/the-multi-armed-bandit-problem/" onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
+        <a class="floating-header-share-fb" href="https://www.facebook.com/sharer/sharer.php?u=https://blog.chenglin.lu/the-multi-armed-bandit-problem/" onclick="window.open(this.href, 'share-facebook','width=580,height=296');return false;">
             <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 32 32"><path d="M19 6h5V0h-5c-3.86 0-7 3.14-7 7v3H8v6h4v16h6V16h5l1-6h-6V7c0-.542.458-1 1-1z"></path></svg>
         </a>
     </div>
@@ -247,11 +281,11 @@ ghost.init({
 
         <footer class="site-footer outer">
             <div class="site-footer-content inner">
-                <section class="copyright"><a href="../">TBD</a> © 2019</section>
+                <section class="copyright"><a href="../">苦しいことは繊細に映る高画質レンズで</a> © 2019</section>
                 <nav class="site-footer-nav">
                     <a href="../">Latest Posts</a>
-                    
-                    
+                    <a href="https://www.facebook.com/ghost" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://twitter.com/tryghost" target="_blank" rel="noopener">Twitter</a>
                     <a href="https://ghost.org" target="_blank" rel="noopener">Ghost</a>
                 </nav>
             </div>
@@ -274,7 +308,7 @@ ghost.init({
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
     </script>
-    <script type="text/javascript" src="../assets/built/jquery.fitvids.js?v=fc98143732"></script>
+    <script type="text/javascript" src="../assets/built/jquery.fitvids.js?v=84533f8c96"></script>
 
 
     <script>
@@ -350,24 +384,6 @@ MathJax.Hub.Config({
         processEscapes: true
     }
 });
-</script> <style>
-/* This element defines the size the iframe will take.
-   In this example we want to have a ratio of 25:14 */
-.aspect-ratio {
-  position: relative;
-  width: 100%;
-  height: 0;
-  padding-bottom: 56%; /* The height of the item will now be 56% of the width. */
-}
- 
-/* Adjust the iframe so it's rendered in the outer-width and outer-height of it's parent */
-.aspect-ratio iframe {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-</style>
+</script>
 
 </body>
