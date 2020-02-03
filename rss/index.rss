@@ -1,5 +1,147 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>苦しいことは繊細に映る高画質レンズで</title><description>Thoughts, stories and ideas.</description><link>https://blog.chenglin.lu/</link><image><url>https://blog.chenglin.lu/favicon.png</url><title>苦しいことは繊細に映る高画質レンズで</title><link>https://blog.chenglin.lu/</link></image><generator>Ghost 2.23</generator><lastBuildDate>Sun, 02 Feb 2020 07:16:15 GMT</lastBuildDate><atom:link href="https://blog.chenglin.lu/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>2019-nCoV</title><description>&lt;h2&gt;&lt;/h2&gt;&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;&lt;p&gt;douban: &lt;a href="https://www.douban.com/people/143524722/"&gt;Lawrence Lee&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2019冠状病毒传播起源初探（其一）&lt;br&gt;&lt;a href="https://www.douban.com/note/750329932/"&gt;https://www.douban.com/note/750329932/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;2019冠状病毒传播起源初探（其二）&lt;br&gt;&lt;a href="https://www.douban.com/note/750424924/"&gt;https://www.douban.com/note/750424924/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;2019冠状病毒传播起源初探（其三）&lt;br&gt;&lt;a href="https://www.douban.com/note/750498535/"&gt;https://www.douban.com/note/750498535/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;weibo: &lt;a href="https://www.weibo.com/u/7202133691"&gt;雷尼尔雪山2020&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;pre&gt;&lt;code class="language-python"&gt;1. @article{doi:10.1056/NEJMoa2001316,
-	author = {Li, Qun and Guan, Xuhua and Wu, Peng and Wang, Xiaoye and Zhou,&lt;/code&gt;&lt;/pre&gt;</description><link>https://blog.chenglin.lu/2019-ncov/</link><guid isPermaLink="false">5e366ffa5fd1217b54477a9b</guid><category>bio</category><dc:creator>Chenglin Lu</dc:creator><pubDate>Sun, 02 Feb 2020 06:48:19 GMT</pubDate><content:encoded>&lt;h2&gt;&lt;/h2&gt;&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;&lt;p&gt;douban: &lt;a href="https://www.douban.com/people/143524722/"&gt;Lawrence Lee&lt;/a&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;2019冠状病毒传播起源初探（其一）&lt;br&gt;&lt;a href="https://www.douban.com/note/750329932/"&gt;https://www.douban.com/note/750329932/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;2019冠状病毒传播起源初探（其二）&lt;br&gt;&lt;a href="https://www.douban.com/note/750424924/"&gt;https://www.douban.com/note/750424924/&lt;/a&gt;&lt;/li&gt;&lt;li&gt;2019冠状病毒传播起源初探（其三）&lt;br&gt;&lt;a href="https://www.douban.com/note/750498535/"&gt;https://www.douban.com/note/750498535/&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;weibo: &lt;a href="https://www.weibo.com/u/7202133691"&gt;雷尼尔雪山2020&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;pre&gt;&lt;code class="language-python"&gt;1. @article{doi:10.1056/NEJMoa2001316,
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>苦しいことは繊細に映る高画質レンズで</title><description>Thoughts, stories and ideas.</description><link>https://blog.chenglin.lu/</link><image><url>https://blog.chenglin.lu/favicon.png</url><title>苦しいことは繊細に映る高画質レンズで</title><link>https://blog.chenglin.lu/</link></image><generator>Ghost 2.23</generator><lastBuildDate>Mon, 03 Feb 2020 00:58:12 GMT</lastBuildDate><atom:link href="https://blog.chenglin.lu/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>2019-nCoV</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
+&lt;p&gt;Skip&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;2019-nCoV. BLAST&lt;/th&gt;
+&lt;th&gt;SARS-CoV&lt;/th&gt;
+&lt;th&gt;RaTG13 (中华菊头蝠, 云南)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Spike (S) protein&lt;/td&gt;
+&lt;td&gt;&amp;lt;75% [2]&lt;/td&gt;
+&lt;td&gt;93% [2]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Envelope (E) protein&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Membrane (M) protein&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nucleocapsid (N) protein&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;SARS-CoV gene [3]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;S: showed positive selection pressures&lt;/li&gt;
+&lt;li&gt;Orf1a: showed positive selection pressures&lt;/li&gt;
+&lt;li&gt;Orf8: majorty deletion; indicating unimportant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="pathology"&gt;Pathology&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Cell entry receptor&lt;/th&gt;
+&lt;th&gt;2019-nCoV&lt;/th&gt;
+&lt;th&gt;SARS-CoV&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Angiotensin&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><link>https://blog.chenglin.lu/2019-ncov/</link><guid isPermaLink="false">5e366ffa5fd1217b54477a9b</guid><category>bio</category><dc:creator>Chenglin Lu</dc:creator><pubDate>Sun, 02 Feb 2020 06:48:19 GMT</pubDate><media:content url="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" medium="image"/><content:encoded>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
+&lt;img src="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" alt="2019-nCoV"&gt;&lt;p&gt;Skip&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;2019-nCoV. BLAST&lt;/th&gt;
+&lt;th&gt;SARS-CoV&lt;/th&gt;
+&lt;th&gt;RaTG13 (中华菊头蝠, 云南)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Spike (S) protein&lt;/td&gt;
+&lt;td&gt;&amp;lt;75% [2]&lt;/td&gt;
+&lt;td&gt;93% [2]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Envelope (E) protein&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Membrane (M) protein&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Nucleocapsid (N) protein&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;SARS-CoV gene [3]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;S: showed positive selection pressures&lt;/li&gt;
+&lt;li&gt;Orf1a: showed positive selection pressures&lt;/li&gt;
+&lt;li&gt;Orf8: majorty deletion; indicating unimportant&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="pathology"&gt;Pathology&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Cell entry receptor&lt;/th&gt;
+&lt;th&gt;2019-nCoV&lt;/th&gt;
+&lt;th&gt;SARS-CoV&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Angiotensin converting enzyme II (ACE2)&lt;/td&gt;
+&lt;td&gt;True [2]&lt;/td&gt;
+&lt;td&gt;True [2]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Aminopeptidase N (CD13)&lt;/td&gt;
+&lt;td&gt;False [2]&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Dipeptidyl peptidase 4&lt;/td&gt;
+&lt;td&gt;False [2]&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="transmission"&gt;Transmission&lt;/h2&gt;
+&lt;p&gt;Air&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Found 2019-nCoV positive in [2]
+&lt;ul&gt;
+&lt;li&gt;BALF (bronchoalveolar lavage fluid, 肺泡冲洗液)&lt;/li&gt;
+&lt;li&gt;Oral swab (口腔拭子)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="clinicalsymptom"&gt;Clinical symptom&lt;/h2&gt;
+&lt;p&gt;Typical symptoms are fever, dry cough, dyspnea, headache, and pneumonia. [2]&lt;/p&gt;
+&lt;h2 id="onsetofillness"&gt;Onset of illness&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;From infection to symptom onset/incubation period: mean = 5.2 days; 95th percentile = 12.5 days [1]&lt;/li&gt;
+&lt;li&gt;From symptom onset to first medical visit: mean = 5.8 days [1]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="draft"&gt;Draft&lt;/h2&gt;&lt;p&gt;[1, Chinese CDC]&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;[2, 武汉病毒所]&lt;/p&gt;&lt;p&gt;RdRp&lt;/p&gt;&lt;p&gt;spike gene/protein&lt;/p&gt;&lt;p&gt;Vero E6 cells&lt;/p&gt;&lt;p&gt;HeLa cells&lt;/p&gt;&lt;p&gt;IgG,&lt;/p&gt;&lt;p&gt;IgM, indicating acute infection&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;&lt;p&gt;douban: &lt;a href="https://www.douban.com/people/143524722/"&gt;Lawrence Lee&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;ul&gt;
+&lt;li&gt;2019冠状病毒传播起源初探（其一）&lt;br&gt;
+&lt;a href="https://www.douban.com/note/750329932/"&gt;https://www.douban.com/note/750329932/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2019冠状病毒传播起源初探（其二）&lt;br&gt;
+&lt;a href="https://www.douban.com/note/750424924/"&gt;https://www.douban.com/note/750424924/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;2019冠状病毒传播起源初探（其三）&lt;br&gt;
+&lt;a href="https://www.douban.com/note/750498535/"&gt;https://www.douban.com/note/750498535/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;新型冠状病毒自救指南&lt;br&gt;
+&lt;a href="https://www.douban.com/note/750631552/"&gt;https://www.douban.com/note/750631552/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;p&gt;weibo: &lt;a href="https://www.weibo.com/u/7202133691"&gt;雷尼尔雪山2020&lt;/a&gt;, &lt;a href="https://www.weibo.com/u/6869766331"&gt;PoliGraph&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;pre&gt;&lt;code class="language-python"&gt;1, Chinese CDC. @article{doi:10.1056/NEJMoa2001316,
 	author = {Li, Qun and Guan, Xuhua and Wu, Peng and Wang, Xiaoye and Zhou, Lei and Tong, Yeqing and Ren, Ruiqi and Leung, Kathy S.M. and Lau, Eric H.Y. and Wong, Jessica Y. and Xing, Xuesen and Xiang, Nijuan and Wu, Yang and Li, Chao and Chen, Qi and Li, Dan and Liu, Tian and Zhao, Jing and Liu, Man and Tu, Wenxiao and Chen, Chuding and Jin, Lianmei and Yang, Rui and Wang, Qi and Zhou, Suhua and Wang, Rui and Liu, Hui and Luo, Yinbo and Liu, Yuan and Shao, Ge and Li, Huan and Tao, Zhongfa and Yang, Yang and Deng, Zhiqiang and Liu, Boxi and Ma, Zhitao and Zhang, Yanping and Shi, Guoqing and Lam, Tommy T.Y. and Wu, Joseph T. and Gao, George F. and Cowling, Benjamin J. and Yang, Bo and Leung, Gabriel M. and Feng, Zijian},
 	title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia},
 	journal = {New England Journal of Medicine},
@@ -10,6 +152,33 @@
 	doi = {10.1056/NEJMoa2001316},
 	URL = {https://doi.org/10.1056/NEJMoa2001316},
 	eprint = {https://doi.org/10.1056/NEJMoa2001316}
+}
+2, 武汉病毒所. @article {Zhou2020.01.22.914952,
+	author = {Zhou, Peng and Yang, Xing-Lou and Wang, Xian-Guang and Hu, Ben and Zhang, Lei and Zhang, Wei and Si, Hao-Rui and Zhu, Yan and Li, Bei and Huang, Chao-Lin and Chen, Hui-Dong and Chen, Jing and Luo, Yun and Guo, Hua and Jiang, Ren-Di and Liu, Mei-Qin and Chen, Ying and Shen, Xu-Rui and Wang, Xi and Zheng, Xiao-Shuang and Zhao, Kai and Chen, Quan-Jiao and Deng, Fei and Liu, Lin-Lin and Yan, Bing and Zhan, Fa-Xian and Wang, Yan-Yi and Xiao, Gengfu and Shi, Zheng-Li},
+	title = {Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin},
+	elocation-id = {2020.01.22.914952},
+	year = {2020},
+	doi = {10.1101/2020.01.22.914952},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Since the SARS outbreak 18 years ago, a large number of severe acute respiratory syndrome related coronaviruses (SARSr-CoV) have been discovered in their natural reservoir host, bats. Previous studies indicated that some of those bat SARSr-CoVs have the potential to infect humans. Here we report the identification and characterization of a novel coronavirus (nCoV-2019) which caused an epidemic of acute respiratory syndrome in humans, in Wuhan, China. The epidemic, started from December 12th, 2019, has caused 198 laboratory confirmed infections with three fatal cases by January 20th, 2020. Full-length genome sequences were obtained from five patients at the early stage of the outbreak. They are almost identical to each other and share 79.5\% sequence identify to SARS-CoV. Furthermore, it was found that nCoV-2019 is 96\% identical at the whole genome level to a bat coronavirus. The pairwise protein sequence analysis of seven conserved non-structural proteins show that this virus belongs to the species of SARSr-CoV. The nCoV-2019 virus was then isolated from the bronchoalveolar lavage fluid of a critically ill patient, which can be neutralized by sera from several patients. Importantly, we have confirmed that this novel CoV uses the same cell entry receptor, ACE2, as SARS-CoV.},
+	URL = {https://www.biorxiv.org/content/early/2020/01/23/2020.01.22.914952.1},
+	eprint = {https://www.biorxiv.org/content/early/2020/01/23/2020.01.22.914952.1.full.pdf},
+	journal = {bioRxiv}
+}
+3, 广东CDC - SARS. @article {1666,
+	author = {,},
+	title = {Molecular Evolution of the SARS Coronavirus During the Course of the SARS Epidemic in China},
+	volume = {303},
+	number = {5664},
+	pages = {1666--1669},
+	year = {2004},
+	doi = {10.1126/science.1092002},
+	publisher = {American Association for the Advancement of Science},
+	abstract = {Sixty-one SARS coronavirus genomic sequences derived from the early, middle, and late phases of the severe acute respiratory syndrome (SARS) epidemic were analyzed together with two viral sequences from palm civets. Genotypes characteristic of each phase were discovered, and the earliest genotypes were similar to the animal SARS-like coronaviruses. Major deletions were observed in the Orf8 region of the genome, both at the start and the end of the epidemic. The neutral mutation rate of the viral genome was constant but the amino acid substitution rate of the coding sequences slowed during the course of the epidemic. The spike protein showed the strongest initial responses to positive selection pressures, followed by subsequent purifying selection and eventual stabilization.},
+	issn = {0036-8075},
+	URL = {https://science.sciencemag.org/content/303/5664/1666},
+	eprint = {https://science.sciencemag.org/content/303/5664/1666.full.pdf},
+	journal = {Science}
 }
 &lt;/code&gt;&lt;/pre&gt;
 &lt;!--kg-card-end: markdown--&gt;</content:encoded></item><item><title>Learnings from "The Book of Why"</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
