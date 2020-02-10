@@ -1,5 +1,6 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>苦しいことは繊細に映る高画質レンズで</title><description>Thoughts, stories and ideas.</description><link>https://blog.chenglin.lu/</link><image><url>https://blog.chenglin.lu/favicon.png</url><title>苦しいことは繊細に映る高画質レンズで</title><link>https://blog.chenglin.lu/</link></image><generator>Ghost 2.23</generator><lastBuildDate>Mon, 03 Feb 2020 00:58:12 GMT</lastBuildDate><atom:link href="https://blog.chenglin.lu/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>2019-nCoV</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>苦しいことは繊細に映る高画質レンズで</title><description>Thoughts, stories and ideas.</description><link>https://blog.chenglin.lu/</link><image><url>https://blog.chenglin.lu/favicon.png</url><title>苦しいことは繊細に映る高画質レンズで</title><link>https://blog.chenglin.lu/</link></image><generator>Ghost 2.23</generator><lastBuildDate>Mon, 10 Feb 2020 06:37:41 GMT</lastBuildDate><atom:link href="https://blog.chenglin.lu/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>2019-nCoV</title><description>&lt;p&gt;Last updated: 2020-02-09&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
 &lt;p&gt;Skip&lt;/p&gt;
+&lt;h2 id="sequence"&gt;Sequence&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -31,25 +32,14 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;SARS-CoV gene [3]&lt;/p&gt;
+&lt;p&gt;Sequence - SARS-CoV [3]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;S: showed positive selection pressures&lt;/li&gt;
 &lt;li&gt;Orf1a: showed positive selection pressures&lt;/li&gt;
 &lt;li&gt;Orf8: majorty deletion; indicating unimportant&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="pathology"&gt;Pathology&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Cell entry receptor&lt;/th&gt;
-&lt;th&gt;2019-nCoV&lt;/th&gt;
-&lt;th&gt;SARS-CoV&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Angiotensin&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description><link>https://blog.chenglin.lu/2019-ncov/</link><guid isPermaLink="false">5e366ffa5fd1217b54477a9b</guid><category>bio</category><dc:creator>Chenglin Lu</dc:creator><pubDate>Sun, 02 Feb 2020 06:48:19 GMT</pubDate><media:content url="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" medium="image"/><content:encoded>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
-&lt;img src="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" alt="2019-nCoV"&gt;&lt;p&gt;Skip&lt;/p&gt;
+&lt;li&gt;TODO: verify&lt;/li&gt;&lt;/ul&gt;</description><link>https://blog.chenglin.lu/2019-ncov/</link><guid isPermaLink="false">5e366ffa5fd1217b54477a9b</guid><category>bio</category><dc:creator>Chenglin Lu</dc:creator><pubDate>Sun, 02 Feb 2020 06:48:19 GMT</pubDate><media:content url="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" medium="image"/><content:encoded>&lt;img src="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" alt="2019-nCoV"&gt;&lt;p&gt;Last updated: 2020-02-09&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
+&lt;p&gt;Skip&lt;/p&gt;
+&lt;h2 id="sequence"&gt;Sequence&lt;/h2&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -81,11 +71,12 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;SARS-CoV gene [3]&lt;/p&gt;
+&lt;p&gt;Sequence - SARS-CoV [3]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;S: showed positive selection pressures&lt;/li&gt;
 &lt;li&gt;Orf1a: showed positive selection pressures&lt;/li&gt;
 &lt;li&gt;Orf8: majorty deletion; indicating unimportant&lt;/li&gt;
+&lt;li&gt;TODO: verify E protein.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="pathology"&gt;Pathology&lt;/h2&gt;
 &lt;table&gt;
@@ -114,34 +105,114 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h2 id="transmission"&gt;Transmission&lt;/h2&gt;
-&lt;p&gt;Air&lt;/p&gt;
+&lt;h2 id="transmissionconfirmation"&gt;Transmission &amp;amp; Confirmation&lt;/h2&gt;
+&lt;p&gt;Human-to-human, respiratory droplets, direct contact, etc.&lt;/p&gt;
+&lt;p&gt;Confirmed 2019-nCoV case is defined as a positive result to sequencing/RT-PCR for nasal and pharyngeal swab [4].&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Found 2019-nCoV positive in [2]
+&lt;li&gt;Found 2019-nCoV positive in [2, 4]
 &lt;ul&gt;
+&lt;li&gt;Nasal swab (鼻拭子)&lt;/li&gt;
+&lt;li&gt;Pharyngeal swab (咽拭子)&lt;/li&gt;
 &lt;li&gt;BALF (bronchoalveolar lavage fluid, 肺泡冲洗液)&lt;/li&gt;
 &lt;li&gt;Oral swab (口腔拭子)&lt;/li&gt;
+&lt;li&gt;Rectal swab (直肠拭子)&lt;/li&gt;
+&lt;li&gt;Esophageal biopsy (食管活检)&lt;/li&gt;
+&lt;li&gt;Gastric mucosa (胃粘膜)&lt;/li&gt;
+&lt;li&gt;Rectal mucosa (直肠粘膜)&lt;/li&gt;
+&lt;li&gt;Duodenal mucosa (十二指肠粘膜)&lt;/li&gt;
+&lt;li&gt;Urine&lt;/li&gt;
+&lt;li&gt;Stool&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="clinicalsymptom"&gt;Clinical symptom&lt;/h2&gt;
-&lt;p&gt;Typical symptoms are fever, dry cough, dyspnea, headache, and pneumonia. [2]&lt;/p&gt;
-&lt;h2 id="onsetofillness"&gt;Onset of illness&lt;/h2&gt;
+&lt;h2 id="clinicalsymptoms"&gt;Clinical Symptoms&lt;/h2&gt;
+&lt;p&gt;Typical symptoms including fever (87.9%), pneumonia (79.1%), cough (67.7%),  fatigue (38.1%), dyspnea (18.6%), headache (13.6%), etc. Vomiting (5.0%) and diarrhea (3.7%) were rare [2, 4].&lt;/p&gt;
+&lt;p&gt;Abnormalities on chest CT: Ground-glass opacity (磨玻璃影, 50%), Bilateral patchy shadowing (46%), Local patchy shadowing(37.2%) [4].&lt;/p&gt;
+&lt;h2 id="onsetofillness"&gt;Onset of Illness&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;From infection to symptom onset/incubation period: mean = 5.2 days; 95th percentile = 12.5 days [1]&lt;/li&gt;
 &lt;li&gt;From symptom onset to first medical visit: mean = 5.8 days [1]&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!--kg-card-end: markdown--&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="draft"&gt;Draft&lt;/h2&gt;&lt;p&gt;[1, Chinese CDC]&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;[2, 武汉病毒所]&lt;/p&gt;&lt;p&gt;RdRp&lt;/p&gt;&lt;p&gt;spike gene/protein&lt;/p&gt;&lt;p&gt;Vero E6 cells&lt;/p&gt;&lt;p&gt;HeLa cells&lt;/p&gt;&lt;p&gt;IgG,&lt;/p&gt;&lt;p&gt;IgM, indicating acute infection&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;&lt;p&gt;douban: &lt;a href="https://www.douban.com/people/143524722/"&gt;Lawrence Lee&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;ul&gt;
-&lt;li&gt;2019冠状病毒传播起源初探（其一）&lt;br&gt;
-&lt;a href="https://www.douban.com/note/750329932/"&gt;https://www.douban.com/note/750329932/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2019冠状病毒传播起源初探（其二）&lt;br&gt;
-&lt;a href="https://www.douban.com/note/750424924/"&gt;https://www.douban.com/note/750424924/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;2019冠状病毒传播起源初探（其三）&lt;br&gt;
-&lt;a href="https://www.douban.com/note/750498535/"&gt;https://www.douban.com/note/750498535/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;新型冠状病毒自救指南&lt;br&gt;
-&lt;a href="https://www.douban.com/note/750631552/"&gt;https://www.douban.com/note/750631552/&lt;/a&gt;&lt;/li&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="potential-drugs"&gt;Potential Drugs&lt;/h2&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h3 id="remdesivirdevelopmentcodegs5734"&gt;Remdesivir (development code GS-5734)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;RdRP&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!--kg-card-end: markdown--&gt;&lt;p&gt;weibo: &lt;a href="https://www.weibo.com/u/7202133691"&gt;雷尼尔雪山2020&lt;/a&gt;, &lt;a href="https://www.weibo.com/u/6869766331"&gt;PoliGraph&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;pre&gt;&lt;code class="language-python"&gt;1, Chinese CDC. @article{doi:10.1056/NEJMoa2001316,
+&lt;p&gt;Clinical Trials&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Phase 3 - Mild/Moderate 2019-nCoV Remdesivir RCT (&lt;a href="https://clinicaltrials.gov/ct2/show/NCT04252664"&gt;link&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Estimated Primary Completion Date:	April 10, 2020&lt;/li&gt;
+&lt;li&gt;Estimated Study Completion Date:	April 27, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Phase 3 - Severe 2019-nCoV Remdesivir RCT (&lt;a href="https://clinicaltrials.gov/ct2/show/NCT04257656"&gt;link&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Estimated Primary Completion Date:	April 3, 2020&lt;/li&gt;
+&lt;li&gt;Estimated Study Completion Date:	May 1, 2020&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="kaletralopinavirritonavir"&gt;Kaletra (柯立芝， Lopinavir/Ritonavir)&lt;/h3&gt;
+&lt;h3 id="ribavirin"&gt;Ribavirin (利巴韦林)&lt;/h3&gt;
+&lt;h3 id="treatmentforcytokinestorm"&gt;Treatment for Cytokine Storm (细胞因子风暴)&lt;/h3&gt;
+&lt;h3 id="shouldbeavoidedcorticosteroidseg"&gt;Should be Avoided - Corticosteroids (皮质激素. e.g.甲泼尼龙)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Source 1: US CDC guidance (&lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html"&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Source 2: Clinical evidence does not support corticosteroid treatment for 2019-nCoV lung injury (The Lancet - Comment, &lt;a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30317-2"&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="prevention"&gt;Prevention&lt;/h2&gt;&lt;h3 id="household-products-active-ingredients-by-singapore-national-environment-agency-link-"&gt;Household Products &amp;amp; Active Ingredients (by Singapore National Environment Agency, &lt;a href="https://www.nea.gov.sg/our-services/public-cleanliness/environmental-cleaning-guidelines/guidelines/interim-list-of-household-products-and-active-ingredients-for-disinfection-of-novel-coronavirus"&gt;link&lt;/a&gt;)&lt;/h3&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Active Ingredient&lt;/th&gt;
+&lt;th&gt;中文&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Sodium hypochlorite (0.1 – 0.5%)&lt;/td&gt;
+&lt;td&gt;次氯酸钠&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;70% ethyl alcohol&lt;/td&gt;
+&lt;td&gt;70％乙醇&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Povidone-iodine (1% iodine)&lt;/td&gt;
+&lt;td&gt;聚维酮碘（1％碘）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chloroxylenol (0.12%)&lt;/td&gt;
+&lt;td&gt;氯乙二酚（0.12％）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;50% isopropanol&lt;/td&gt;
+&lt;td&gt;50％异丙醇&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0.05% benzalkonium chloride (Quaternary Ammonium Compound)&lt;/td&gt;
+&lt;td&gt;0.05％苯扎氯铵（季铵化合物）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;50ppm iodine in iodophor&lt;/td&gt;
+&lt;td&gt;碘伏&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;0.23% sodium chlorite&lt;/td&gt;
+&lt;td&gt;0.23％亚氯酸钠&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;1% cresol soap (sodium alkyl-ben-zene sulfonate)&lt;/td&gt;
+&lt;td&gt;1％甲酚皂（烷基苯磺酸钠）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Hydrogen peroxide (0.5-7.0%)&lt;/td&gt;
+&lt;td&gt;过氧化氢（0.5-7.0％）&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h3 id="anthocyanin"&gt;Anthocyanin (花色素苷)&lt;/h3&gt;
+&lt;p&gt;TODO&lt;/p&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="draft"&gt;Draft&lt;/h2&gt;&lt;p&gt;[1, Chinese CDC]&lt;/p&gt;&lt;p&gt;[2, 武汉病毒所]&lt;/p&gt;&lt;p&gt;[4, 钟南山团队]&lt;/p&gt;&lt;p&gt;RdRp&lt;/p&gt;&lt;p&gt;spike gene/protein&lt;/p&gt;&lt;p&gt;Vero E6 cells&lt;/p&gt;&lt;p&gt;HeLa cells&lt;/p&gt;&lt;p&gt;IgG,&lt;/p&gt;&lt;p&gt;IgM, indicating acute infection&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;&lt;p&gt;douban: Lawrence Lee (&lt;a href="https://www.douban.com/people/143524722/"&gt;people/143524722&lt;/a&gt;, &lt;a href="https://www.douban.com/people/143491413/"&gt;people/143491413&lt;/a&gt;)&lt;/p&gt;&lt;p&gt;weibo: &lt;a href="https://www.weibo.com/u/7202133691"&gt;雷尼尔雪山2020&lt;/a&gt;, &lt;a href="https://www.weibo.com/u/6869766331"&gt;PoliGraph&lt;/a&gt;, &lt;a href="https://www.weibo.com/529645621"&gt;子陵在听歌&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;pre&gt;&lt;code class="language-python"&gt;1, Chinese CDC. @article{doi:10.1056/NEJMoa2001316,
 	author = {Li, Qun and Guan, Xuhua and Wu, Peng and Wang, Xiaoye and Zhou, Lei and Tong, Yeqing and Ren, Ruiqi and Leung, Kathy S.M. and Lau, Eric H.Y. and Wong, Jessica Y. and Xing, Xuesen and Xiang, Nijuan and Wu, Yang and Li, Chao and Chen, Qi and Li, Dan and Liu, Tian and Zhao, Jing and Liu, Man and Tu, Wenxiao and Chen, Chuding and Jin, Lianmei and Yang, Rui and Wang, Qi and Zhou, Suhua and Wang, Rui and Liu, Hui and Luo, Yinbo and Liu, Yuan and Shao, Ge and Li, Huan and Tao, Zhongfa and Yang, Yang and Deng, Zhiqiang and Liu, Boxi and Ma, Zhitao and Zhang, Yanping and Shi, Guoqing and Lam, Tommy T.Y. and Wu, Joseph T. and Gao, George F. and Cowling, Benjamin J. and Yang, Bo and Leung, Gabriel M. and Feng, Zijian},
 	title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia},
 	journal = {New England Journal of Medicine},
@@ -180,8 +251,21 @@
 	eprint = {https://science.sciencemag.org/content/303/5664/1666.full.pdf},
 	journal = {Science}
 }
+4, 钟南山团队. @article {Guan2020.02.06.20020974,
+	author = {Guan, Wei-jie and Ni, Zheng-yi and Hu, Yu and Liang, Wen-hua and Ou, Chun-quan and He, Jian-xing and Liu, Lei and Shan, Hong and Lei, Chun-liang and Hui, David SC and Du, Bin and Li, Lan-juan and Zeng, Guang and Yuen, Kowk-Yung and Chen, Ru-chong and Tang, Chun-li and Wang, Tao and Chen, Ping-yan and Xiang, Jie and Li, Shi-yue and Wang, Jin-lin and Liang, Zi-jing and Peng, Yi-xiang and Wei, Li and Liu, Yong and Hu, Ya-hua and Peng, Peng and Wang, Jian-ming and Liu, Ji-yang and Chen, Zhong and Li, Gang and Zheng, Zhi-jian and Qiu, Shao-qin and Luo, Jie and Ye, Chang-jiang and Zhu, Shao-yong and Zhong, Nan-shan},
+	title = {Clinical characteristics of 2019 novel coronavirus infection in China},
+	elocation-id = {2020.02.06.20020974},
+	year = {2020},
+	doi = {10.1101/2020.02.06.20020974},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	abstract = {Background: Since December 2019, acute respiratory disease (ARD) due to 2019 novel coronavirus (2019-nCoV) emerged in Wuhan city and rapidly spread throughout China. We sought to delineate the clinical characteristics of these cases. Methods: We extracted the data on 1,099 patients with laboratory-confirmed 2019-nCoV ARD from 552 hospitals in 31 provinces/provincial municipalities through January 29th, 2020. Results: The median age was 47.0 years, and 41.90\% were females. Only 1.18\% of patients had a direct contact with wildlife, whereas 31.30\% had been to Wuhan and 71.80\% had contacted with people from Wuhan. Fever (87.9\%) and cough (67.7\%) were the most common symptoms. Diarrhea is uncommon. The median incubation period was 3.0 days (range, 0 to 24.0 days). On admission, ground-glass opacity was the typical radiological finding on chest computed tomography (50.00\%). Significantly more severe cases were diagnosed by symptoms plus reverse-transcriptase polymerase-chain-reaction without abnormal radiological findings than non-severe cases (23.87\% vs. 5.20\%, P\&amp;amp;lt;0.001). Lymphopenia was observed in 82.1\% of patients. 55 patients (5.00\%) were admitted to intensive care unit and 15 (1.36\%) succumbed. Severe pneumonia was independently associated with either the admission to intensive care unit, mechanical ventilation, or death in multivariate competing-risk model (sub-distribution hazards ratio, 9.80; 95\% confidence interval, 4.06 to 23.67). Conclusions: The 2019-nCoV epidemic spreads rapidly by human-to-human transmission. Normal radiologic findings are present among some patients with 2019-nCoV infection. The disease severity (including oxygen saturation, respiratory rate, blood leukocyte/lymphocyte count and chest X-ray/CT manifestations) predict poor clinical outcomes.Competing Interest StatementThe authors have declared no competing interest.Clinical TrialNAFunding StatementSupported by Ministry of Science and Technology, National Health Commission, National Natural Science Foundation, Department of Science and Technology of Guangdong Province.Author DeclarationsAll relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.YesAll necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesData will be made available upon request to the corresponding author.},
+	URL = {https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974},
+	eprint = {https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974.full.pdf},
+	journal = {medRxiv}
+}
+
 &lt;/code&gt;&lt;/pre&gt;
-&lt;!--kg-card-end: markdown--&gt;</content:encoded></item><item><title>Learnings from "The Book of Why"</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;h2 id="-"&gt;写在最后&lt;/h2&gt;&lt;p&gt;从weibo, douban, telegram等各个渠道关注这次ncov事件也已经好久了，从一开始的悲痛愤怒到现在的无可奈何，作为一个（学过一些生物常识的）普通人在这谣言明天飞的世界里我决定从自己开始整理读过的paper和认为可信的一些信息。或许唯一值的欣慰的就是早早往国内寄出了口罩和随便买买股票赚点小钱吧。&lt;/p&gt;&lt;!--kg-card-begin: html--&gt;&lt;table class="result-info" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr class="last"&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.28&lt;/span&gt;&lt;span class="time"&gt;12:31&lt;/span&gt;&amp;nbsp;&lt;span class="week"&gt;星期二&lt;/span&gt;&lt;/td&gt;&lt;td class="status status-check"&gt;&amp;nbsp;&lt;div class="col2"&gt;&lt;span class="step"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="contex" t=""&gt;[杨浦(本部)]在 上海市 投递并签收，签收人：他人收 快递柜&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.28&lt;/span&gt;&lt;span class="time"&gt;08:23&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;span class="week"&gt;星期二&lt;/span&gt;&lt;/td&gt;&lt;td class="status"&gt;&amp;nbsp;&lt;div class="col2"&gt;&lt;span class="step"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="context"&gt;杨浦(本部)安排投递，预计13:00:00前投递（投递员姓名：林金顺;联系电话：&lt;a target="_blank" href="https://www.kuaidi100.com/courier/detail_142BE3CFA2123B8BD80CBF388FF28AF4.html"&gt;15618613796&lt;/a&gt;）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;span class="time"&gt;03:05&lt;/span&gt;&lt;/td&gt;&lt;td class="status"&gt;&amp;nbsp;&lt;div class="col2"&gt;&lt;span class="step"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="context"&gt;[美国 USSFOA]离开处理中心,发往中国 上海&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;span class="time"&gt;03:04&lt;/span&gt;&lt;/td&gt;&lt;td class="status"&gt;&amp;nbsp;&lt;div class="col2"&gt;&lt;span class="step"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="context"&gt;[美国 USSFOA]到达处理中心,来自美国 旧金山&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;span class="time"&gt;01:07&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;span class="week"&gt;星期六&lt;/span&gt;&lt;/td&gt;&lt;td class="status status-first"&gt;&amp;nbsp;&lt;/td&gt;&lt;td class="context"&gt;[94025] 收寄&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--kg-card-end: html--&gt;</content:encoded></item><item><title>Learnings from "The Book of Why"</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
 &lt;p&gt;Control for a mediator (e.g., add to a regression model) could block the effect between the treatment and the outcome.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;You should only control for $Z$ if you have a &amp;quot;strong prior reason&amp;quot; ... This &amp;quot;strong prior reason&amp;quot; is nothing more&lt;/p&gt;&lt;/blockquote&gt;</description><link>https://blog.chenglin.lu/learnings-from-the-book-of-why/</link><guid isPermaLink="false">5d054ac765476d5db4678b0d</guid><dc:creator>Chenglin Lu</dc:creator><pubDate>Sat, 15 Jun 2019 19:47:06 GMT</pubDate><media:content url="https://blog.chenglin.lu/content/images/2019/07/emily-morter-8xAA0f9yQnE-unsplash.jpg" medium="image"/><content:encoded>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
