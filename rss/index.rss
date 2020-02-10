@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>苦しいことは繊細に映る高画質レンズで</title><description>Thoughts, stories and ideas.</description><link>https://blog.chenglin.lu/</link><image><url>https://blog.chenglin.lu/favicon.png</url><title>苦しいことは繊細に映る高画質レンズで</title><link>https://blog.chenglin.lu/</link></image><generator>Ghost 2.23</generator><lastBuildDate>Mon, 10 Feb 2020 06:37:41 GMT</lastBuildDate><atom:link href="https://blog.chenglin.lu/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>2019-nCoV</title><description>&lt;p&gt;Last updated: 2020-02-09&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>苦しいことは繊細に映る高画質レンズで</title><description>Thoughts, stories and ideas.</description><link>https://blog.chenglin.lu/</link><image><url>https://blog.chenglin.lu/favicon.png</url><title>苦しいことは繊細に映る高画質レンズで</title><link>https://blog.chenglin.lu/</link></image><generator>Ghost 2.23</generator><lastBuildDate>Mon, 10 Feb 2020 07:14:02 GMT</lastBuildDate><atom:link href="https://blog.chenglin.lu/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>2019-nCoV</title><description>&lt;p&gt;Last updated: 2020-02-09&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
 &lt;p&gt;Skip&lt;/p&gt;
 &lt;h2 id="sequence"&gt;Sequence&lt;/h2&gt;
 &lt;table&gt;
@@ -105,6 +105,8 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;h3 id="acedistribution"&gt;ACE distribution&lt;/h3&gt;
+&lt;p&gt;TODO. &amp;quot;ACE2（血管紧张素转化酶2）（Timens, 2004, J Path）&amp;quot; (from weibo)&lt;/p&gt;
 &lt;h2 id="transmissionconfirmation"&gt;Transmission &amp;amp; Confirmation&lt;/h2&gt;
 &lt;p&gt;Human-to-human, respiratory droplets, direct contact, etc.&lt;/p&gt;
 &lt;p&gt;Confirmed 2019-nCoV case is defined as a positive result to sequencing/RT-PCR for nasal and pharyngeal swab [4].&lt;/p&gt;
@@ -137,6 +139,49 @@
 &lt;ul&gt;
 &lt;li&gt;RdRP&lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;Vivo evaluation&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;/th&gt;
+&lt;th&gt;EC50&lt;/th&gt;
+&lt;th&gt;EC90&lt;/th&gt;
+&lt;th&gt;selectivity index (SI)&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Remdesivir&lt;/td&gt;
+&lt;td&gt;0.77 μM [5]&lt;/td&gt;
+&lt;td&gt;1.76 μM [5]&lt;/td&gt;
+&lt;td&gt;&amp;gt;129.87 [5]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Chloroquine&lt;/td&gt;
+&lt;td&gt;1.13 μM [5]&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;gt;88.50 [5]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ribavirin (利巴韦林)&lt;/td&gt;
+&lt;td&gt;109.50 μM [5]&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;gt;3.65 [5]&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Umifenovir (阿比朵尔)&lt;/td&gt;
+&lt;td&gt;weibo&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Darunavir (达芦那韦)&lt;/td&gt;
+&lt;td&gt;weibo&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 &lt;p&gt;Clinical Trials&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Phase 3 - Mild/Moderate 2019-nCoV Remdesivir RCT (&lt;a href="https://clinicaltrials.gov/ct2/show/NCT04252664"&gt;link&lt;/a&gt;)
@@ -263,9 +308,32 @@
 	eprint = {https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974.full.pdf},
 	journal = {medRxiv}
 }
-
+5, 武汉病毒所. Wang, M., Cao, R., Zhang, L. et al. Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro. Cell Res (2020). https://doi.org/10.1038/s41422-020-0282-0 
 &lt;/code&gt;&lt;/pre&gt;
-&lt;!--kg-card-end: markdown--&gt;&lt;h2 id="-"&gt;写在最后&lt;/h2&gt;&lt;p&gt;从weibo, douban, telegram等各个渠道关注这次ncov事件也已经好久了，从一开始的悲痛愤怒到现在的无可奈何，作为一个（学过一些生物常识的）普通人在这谣言明天飞的世界里我决定从自己开始整理读过的paper和认为可信的一些信息。或许唯一值的欣慰的就是早早往国内寄出了口罩和随便买买股票赚点小钱吧。&lt;/p&gt;&lt;!--kg-card-begin: html--&gt;&lt;table class="result-info" cellspacing="0"&gt;&lt;tbody&gt;&lt;tr class="last"&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.28&lt;/span&gt;&lt;span class="time"&gt;12:31&lt;/span&gt;&amp;nbsp;&lt;span class="week"&gt;星期二&lt;/span&gt;&lt;/td&gt;&lt;td class="status status-check"&gt;&amp;nbsp;&lt;div class="col2"&gt;&lt;span class="step"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="contex" t=""&gt;[杨浦(本部)]在 上海市 投递并签收，签收人：他人收 快递柜&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.28&lt;/span&gt;&lt;span class="time"&gt;08:23&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;span class="week"&gt;星期二&lt;/span&gt;&lt;/td&gt;&lt;td class="status"&gt;&amp;nbsp;&lt;div class="col2"&gt;&lt;span class="step"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="context"&gt;杨浦(本部)安排投递，预计13:00:00前投递（投递员姓名：林金顺;联系电话：&lt;a target="_blank" href="https://www.kuaidi100.com/courier/detail_142BE3CFA2123B8BD80CBF388FF28AF4.html"&gt;15618613796&lt;/a&gt;）&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;span class="time"&gt;03:05&lt;/span&gt;&lt;/td&gt;&lt;td class="status"&gt;&amp;nbsp;&lt;div class="col2"&gt;&lt;span class="step"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="context"&gt;[美国 USSFOA]离开处理中心,发往中国 上海&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;span class="time"&gt;03:04&lt;/span&gt;&lt;/td&gt;&lt;td class="status"&gt;&amp;nbsp;&lt;div class="col2"&gt;&lt;span class="step"&gt;&lt;span class="line1"&gt;&lt;/span&gt;&lt;span class="line2"&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="context"&gt;[美国 USSFOA]到达处理中心,来自美国 旧金山&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;span class="time"&gt;01:07&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;span class="week"&gt;星期六&lt;/span&gt;&lt;/td&gt;&lt;td class="status status-first"&gt;&amp;nbsp;&lt;/td&gt;&lt;td class="context"&gt;[94025] 收寄&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;!--kg-card-end: html--&gt;</content:encoded></item><item><title>Learnings from "The Book of Why"</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;h2 id="-"&gt;写在最后&lt;/h2&gt;&lt;p&gt;从weibo, douban, telegram等各个渠道关注这次ncov事件也已经好久了，从一开始的悲痛愤怒到现在的无可奈何，作为一个（学过一些生物常识的）普通人在这谣言明天飞的世界里我决定从自己开始整理读过的paper和认为可信的一些信息。或许唯一值的欣慰的就是早早往国内寄出了口罩和随便买买股票赚点小钱吧。&lt;/p&gt;&lt;!--kg-card-begin: html--&gt;&lt;table class="result-info" cellspacing="0"&gt;
+   &lt;tbody&gt;
+      &lt;tr class="last"&gt;
+         &lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.28&lt;/span&gt;&lt;span class="week"&gt;星期二&lt;/span&gt;&lt;/td&gt;
+         &lt;td class="contex" t=""&gt;[杨浦(本部)]在 上海市 投递并签收，签收人：他人收 快递柜&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.28&lt;/span&gt;&lt;span class="week"&gt;星期二&lt;/span&gt;&lt;/td&gt;
+         &lt;td class="context"&gt;杨浦(本部)安排投递，预计13:00:00前投递&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;/td&gt;
+         &lt;td class="context"&gt;[美国 USSFOA]离开处理中心,发往中国 上海&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;/td&gt;
+         &lt;td class="context"&gt;[美国 USSFOA]到达处理中心,来自美国 旧金山&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+         &lt;td class="row1"&gt;&lt;span class="day"&gt;2020.01.25&lt;/span&gt;&lt;span class="week"&gt;星期六&lt;/span&gt;&lt;/td&gt;
+         &lt;td class="context"&gt;[94025] 收寄&lt;/td&gt;
+      &lt;/tr&gt;
+   &lt;/tbody&gt;
+&lt;/table&gt;&lt;!--kg-card-end: html--&gt;</content:encoded></item><item><title>Learnings from "The Book of Why"</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
 &lt;p&gt;Control for a mediator (e.g., add to a regression model) could block the effect between the treatment and the outcome.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;You should only control for $Z$ if you have a &amp;quot;strong prior reason&amp;quot; ... This &amp;quot;strong prior reason&amp;quot; is nothing more&lt;/p&gt;&lt;/blockquote&gt;</description><link>https://blog.chenglin.lu/learnings-from-the-book-of-why/</link><guid isPermaLink="false">5d054ac765476d5db4678b0d</guid><dc:creator>Chenglin Lu</dc:creator><pubDate>Sat, 15 Jun 2019 19:47:06 GMT</pubDate><media:content url="https://blog.chenglin.lu/content/images/2019/07/emily-morter-8xAA0f9yQnE-unsplash.jpg" medium="image"/><content:encoded>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
