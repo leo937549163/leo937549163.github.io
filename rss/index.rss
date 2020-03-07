@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>苦しいことは繊細に映る高画質レンズで</title><description>Thoughts, stories and ideas.</description><link>https://blog.chenglin.lu/</link><image><url>https://blog.chenglin.lu/favicon.png</url><title>苦しいことは繊細に映る高画質レンズで</title><link>https://blog.chenglin.lu/</link></image><generator>Ghost 2.23</generator><lastBuildDate>Mon, 10 Feb 2020 07:26:43 GMT</lastBuildDate><atom:link href="https://blog.chenglin.lu/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>2019-nCoV</title><description>&lt;p&gt;Last updated: 2020-02-09&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>苦しいことは繊細に映る高画質レンズで</title><description>Thoughts, stories and ideas.</description><link>https://blog.chenglin.lu/</link><image><url>https://blog.chenglin.lu/favicon.png</url><title>苦しいことは繊細に映る高画質レンズで</title><link>https://blog.chenglin.lu/</link></image><generator>Ghost 2.23</generator><lastBuildDate>Sat, 07 Mar 2020 10:17:20 GMT</lastBuildDate><atom:link href="https://blog.chenglin.lu/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>2019-nCoV</title><description>&lt;p&gt;Last updated: 2020-03-07&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
 &lt;p&gt;Skip&lt;/p&gt;
 &lt;h2 id="sequence"&gt;Sequence&lt;/h2&gt;
 &lt;table&gt;
@@ -37,7 +37,7 @@
 &lt;li&gt;S: showed positive selection pressures&lt;/li&gt;
 &lt;li&gt;Orf1a: showed positive selection pressures&lt;/li&gt;
 &lt;li&gt;Orf8: majorty deletion; indicating unimportant&lt;/li&gt;
-&lt;li&gt;TODO: verify&lt;/li&gt;&lt;/ul&gt;</description><link>https://blog.chenglin.lu/2019-ncov/</link><guid isPermaLink="false">5e366ffa5fd1217b54477a9b</guid><category>bio</category><dc:creator>Chenglin Lu</dc:creator><pubDate>Sun, 02 Feb 2020 06:48:19 GMT</pubDate><media:content url="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" medium="image"/><content:encoded>&lt;img src="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" alt="2019-nCoV"&gt;&lt;p&gt;Last updated: 2020-02-09&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
+&lt;li&gt;TODO: verify&lt;/li&gt;&lt;/ul&gt;</description><link>https://blog.chenglin.lu/2019-ncov/</link><guid isPermaLink="false">5e366ffa5fd1217b54477a9b</guid><category>bio</category><dc:creator>Chenglin Lu</dc:creator><pubDate>Sun, 02 Feb 2020 06:48:19 GMT</pubDate><media:content url="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" medium="image"/><content:encoded>&lt;img src="https://blog.chenglin.lu/content/images/2020/02/006tS9vhgy1gbfxipwlxfj315p15p43l.jpg" alt="2019-nCoV"&gt;&lt;p&gt;Last updated: 2020-03-07&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="origin"&gt;Origin&lt;/h2&gt;
 &lt;p&gt;Skip&lt;/p&gt;
 &lt;h2 id="sequence"&gt;Sequence&lt;/h2&gt;
 &lt;table&gt;
@@ -85,33 +85,39 @@
 &lt;th&gt;Cell entry receptor&lt;/th&gt;
 &lt;th&gt;2019-nCoV&lt;/th&gt;
 &lt;th&gt;SARS-CoV&lt;/th&gt;
+&lt;th&gt;MERS-CoV&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Angiotensin converting enzyme II (ACE2)&lt;/td&gt;
+&lt;td&gt;True [2, 11]&lt;/td&gt;
 &lt;td&gt;True [2]&lt;/td&gt;
-&lt;td&gt;True [2]&lt;/td&gt;
+&lt;td&gt;False [11]&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Aminopeptidase N (CD13)&lt;/td&gt;
-&lt;td&gt;False [2]&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Aminopeptidase N (APN/CD13)&lt;/td&gt;
+&lt;td&gt;False [2, 11]&lt;/td&gt;
+&lt;td&gt;False [11]&lt;/td&gt;
+&lt;td&gt;False [11]&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;Dipeptidyl peptidase 4&lt;/td&gt;
-&lt;td&gt;False [2]&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;Dipeptidyl peptidase 4 (DPP4)&lt;/td&gt;
+&lt;td&gt;False [2, 11]&lt;/td&gt;
+&lt;td&gt;False [2, 11]&lt;/td&gt;
+&lt;td&gt;True [11]&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+&lt;p&gt;2019-nCoV S binds ACE2 with higher affinity than SARS-CoV S [9].&lt;/p&gt;
 &lt;h3 id="acedistribution"&gt;ACE distribution&lt;/h3&gt;
 &lt;p&gt;TODO. &amp;quot;ACE2（血管紧张素转化酶2）（Timens, 2004, J Path）&amp;quot; (from weibo)&lt;/p&gt;
-&lt;h2 id="transmissionconfirmation"&gt;Transmission &amp;amp; Confirmation&lt;/h2&gt;
+&lt;h2 id="transmissionenvironmentalcontamination"&gt;Transmission &amp;amp; Environmental Contamination&lt;/h2&gt;
 &lt;p&gt;Human-to-human, respiratory droplets, direct contact, etc.&lt;/p&gt;
 &lt;p&gt;Confirmed 2019-nCoV case is defined as a positive result to sequencing/RT-PCR for nasal and pharyngeal swab [4].&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Found 2019-nCoV positive in [2, 4]
+&lt;li&gt;
+&lt;p&gt;Found 2019-nCoV positive in [2, 4]&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Nasal swab (鼻拭子)&lt;/li&gt;
 &lt;li&gt;Pharyngeal swab (咽拭子)&lt;/li&gt;
@@ -126,9 +132,17 @@
 &lt;li&gt;Stool&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;and in [10]&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Room sites (including air outlet fans)&lt;/li&gt;
+&lt;li&gt;Toilet sites (toilet bowl, sink, and door handle)&lt;/li&gt;
+&lt;li&gt;Surface of a shoe front&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="clinicalsymptoms"&gt;Clinical Symptoms&lt;/h2&gt;
-&lt;p&gt;Typical symptoms including fever (87.9%), pneumonia (79.1%), cough (67.7%),  fatigue (38.1%), dyspnea (18.6%), headache (13.6%), etc. Vomiting (5.0%) and diarrhea (3.7%) were rare [2, 4].&lt;/p&gt;
+&lt;p&gt;Typical symptoms including fever (87.9%), dry cough (67.7%), fatigue (38.1%), sputum production (33.4%), shortness of breath (18.6%), sore throat (13.9%), headache (13.6%), myalgia or arthralgia (14.8%), chills (11.4%), nausea or vomiting (5.0%), nasal congestion (4.8%), diarrhea (3.7%), and hemoptysis (0.9%), and conjunctival congestion (0.8%). etc. [2, 4, 6].&lt;/p&gt;
 &lt;p&gt;Abnormalities on chest CT: Ground-glass opacity (磨玻璃影, 50%), Bilateral patchy shadowing (46%), Local patchy shadowing(37.2%) [4].&lt;/p&gt;
 &lt;h2 id="onsetofillness"&gt;Onset of Illness&lt;/h2&gt;
 &lt;ul&gt;
@@ -184,22 +198,41 @@
 &lt;/table&gt;
 &lt;p&gt;Clinical Trials&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Phase 3 - Mild/Moderate 2019-nCoV Remdesivir RCT (&lt;a href="https://clinicaltrials.gov/ct2/show/NCT04252664"&gt;link&lt;/a&gt;)
+&lt;li&gt;A Phase 3 Randomized, Double-blind, Placebo-controlled Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Mild and Moderate 2019-nCoV Respiratory Disease (&lt;a href="https://clinicaltrials.gov/ct2/show/NCT04252664"&gt;link&lt;/a&gt;)
 &lt;ul&gt;
 &lt;li&gt;Estimated Primary Completion Date:	April 10, 2020&lt;/li&gt;
 &lt;li&gt;Estimated Study Completion Date:	April 27, 2020&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;li&gt;Phase 3 - Severe 2019-nCoV Remdesivir RCT (&lt;a href="https://clinicaltrials.gov/ct2/show/NCT04257656"&gt;link&lt;/a&gt;)
+&lt;li&gt;A Phase 3 Randomized, Double-blind, Placebo-controlled, Multicenter Study to Evaluate the Efficacy and Safety of Remdesivir in Hospitalized Adult Patients With Severe 2019-nCoVRespiratory Disease (&lt;a href="https://clinicaltrials.gov/ct2/show/NCT04257656"&gt;link&lt;/a&gt;)
 &lt;ul&gt;
 &lt;li&gt;Estimated Primary Completion Date:	April 3, 2020&lt;/li&gt;
 &lt;li&gt;Estimated Study Completion Date:	May 1, 2020&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
+&lt;li&gt;(Phase 2) A Multicenter, Adaptive, Randomized Blinded Controlled Trial of the Safety and Efficacy of Investigational Therapeutics for the Treatment of COVID-19 in Hospitalized Adults (&lt;a href="https://clinicaltrials.gov/ct2/show/NCT04280705"&gt;link&lt;/a&gt;)
+&lt;ul&gt;
+&lt;li&gt;Estimated Primary Completion Date:	April 1, 2023&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id="kaletralopinavirritonavir"&gt;Kaletra (柯立芝， Lopinavir/Ritonavir)&lt;/h3&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Compassionate Use&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;First US case [7]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="updatenoevidencekaletralopinavirritonavir"&gt;Update: No Evidence. &lt;s&gt;Kaletra (柯立芝， Lopinavir/Ritonavir)&lt;/s&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;This study did not find any effects of lopinavir/ritonavir and abidol on relieving symptoms or accelerating virus clearance. [8]&lt;/li&gt;
+&lt;li&gt;JKMS (&lt;a href="https://jkms.org/DOIx.php?id=10.3346/jkms.2020.35.e88"&gt;link&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id="ribavirin"&gt;Ribavirin (利巴韦林)&lt;/h3&gt;
-&lt;h3 id="treatmentforcytokinestorm"&gt;Treatment for Cytokine Storm (细胞因子风暴)&lt;/h3&gt;
+&lt;h3 id="treatmentforcomplication"&gt;Treatment for Complication&lt;/h3&gt;
+&lt;p&gt;Cytokine Storm (细胞因子风暴)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tocilizumab (托珠单抗)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Acute lung injury (ALI)&lt;br&gt;
+Acute respiratory distress syndrome (ARDS)&lt;/p&gt;
 &lt;h3 id="shouldbeavoidedcorticosteroidseg"&gt;Should be Avoided - Corticosteroids (皮质激素. e.g.甲泼尼龙)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;Source 1: US CDC guidance (&lt;a href="https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-guidance-management-patients.html"&gt;link&lt;/a&gt;)&lt;/li&gt;
@@ -255,60 +288,108 @@
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;!--kg-card-end: markdown--&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h3 id="anthocyanin"&gt;Anthocyanin (花色素苷)&lt;/h3&gt;
-&lt;p&gt;TODO&lt;/p&gt;
-&lt;!--kg-card-end: markdown--&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="draft"&gt;Draft&lt;/h2&gt;&lt;p&gt;[1, Chinese CDC]&lt;/p&gt;&lt;p&gt;[2, 武汉病毒所]&lt;/p&gt;&lt;p&gt;[4, 钟南山团队]&lt;/p&gt;&lt;p&gt;RdRp&lt;/p&gt;&lt;p&gt;spike gene/protein&lt;/p&gt;&lt;p&gt;Vero E6 cells&lt;/p&gt;&lt;p&gt;HeLa cells&lt;/p&gt;&lt;p&gt;IgG,&lt;/p&gt;&lt;p&gt;IgM, indicating acute infection&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;&lt;p&gt;douban: Lawrence Lee (&lt;a href="https://www.douban.com/people/143524722/"&gt;people/143524722&lt;/a&gt;, &lt;a href="https://www.douban.com/people/143491413/"&gt;people/143491413&lt;/a&gt;)&lt;/p&gt;&lt;p&gt;weibo: &lt;a href="https://www.weibo.com/u/7202133691"&gt;雷尼尔雪山2020&lt;/a&gt;, &lt;a href="https://www.weibo.com/u/6869766331"&gt;PoliGraph&lt;/a&gt;, &lt;a href="https://www.weibo.com/529645621"&gt;子陵在听歌&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;pre&gt;&lt;code class="language-python"&gt;1, Chinese CDC. @article{doi:10.1056/NEJMoa2001316,
-	author = {Li, Qun and Guan, Xuhua and Wu, Peng and Wang, Xiaoye and Zhou, Lei and Tong, Yeqing and Ren, Ruiqi and Leung, Kathy S.M. and Lau, Eric H.Y. and Wong, Jessica Y. and Xing, Xuesen and Xiang, Nijuan and Wu, Yang and Li, Chao and Chen, Qi and Li, Dan and Liu, Tian and Zhao, Jing and Liu, Man and Tu, Wenxiao and Chen, Chuding and Jin, Lianmei and Yang, Rui and Wang, Qi and Zhou, Suhua and Wang, Rui and Liu, Hui and Luo, Yinbo and Liu, Yuan and Shao, Ge and Li, Huan and Tao, Zhongfa and Yang, Yang and Deng, Zhiqiang and Liu, Boxi and Ma, Zhitao and Zhang, Yanping and Shi, Guoqing and Lam, Tommy T.Y. and Wu, Joseph T. and Gao, George F. and Cowling, Benjamin J. and Yang, Bo and Leung, Gabriel M. and Feng, Zijian},
-	title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia},
-	journal = {New England Journal of Medicine},
-	volume = {0},
-	number = {0},
-	pages = {null},
-	year = {0},
-	doi = {10.1056/NEJMoa2001316},
-	URL = {https://doi.org/10.1056/NEJMoa2001316},
-	eprint = {https://doi.org/10.1056/NEJMoa2001316}
+&lt;!--kg-card-end: markdown--&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;h3 id="immunity"&gt;Immunity&lt;/h3&gt;
+&lt;p&gt;Flavonoids&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;e.g. Anthocyanin (花色素苷)&lt;/li&gt;
+&lt;li&gt;Flavonoid supplementation decreased upper respiratory tract infection (URTI) by 33% [12]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Vitamins D, E and C&lt;/p&gt;
+&lt;p&gt;Theobromine (可可碱)&lt;/p&gt;
+&lt;p&gt;Kefir&lt;/p&gt;
+&lt;!--kg-card-end: markdown--&gt;&lt;h2 id="reference"&gt;Reference&lt;/h2&gt;&lt;p&gt;douban: Lawrence Lee (&lt;a href="https://www.douban.com/people/143524722/"&gt;people/143524722&lt;/a&gt;, &lt;a href="https://www.douban.com/people/143491413/"&gt;people/143491413&lt;/a&gt;)&lt;/p&gt;&lt;p&gt;weibo: &lt;a href="https://www.weibo.com/u/7202133691"&gt;雷尼尔雪山2020&lt;/a&gt;, &lt;a href="https://www.weibo.com/u/6869766331"&gt;PoliGraph&lt;/a&gt;, &lt;a href="https://www.weibo.com/529645621"&gt;子陵在听歌&lt;/a&gt;&lt;/p&gt;&lt;!--kg-card-begin: markdown--&gt;&lt;pre&gt;&lt;code class="language-python"&gt;1, Chinese CDC. @article{doi:10.1056/NEJMoa2001316,
+    author = {Li, Qun and Guan, Xuhua and Wu, Peng and Wang, Xiaoye and Zhou, Lei and Tong, Yeqing and Ren, Ruiqi and Leung, Kathy S.M. and Lau, Eric H.Y. and Wong, Jessica Y. and Xing, Xuesen and Xiang, Nijuan and Wu, Yang and Li, Chao and Chen, Qi and Li, Dan and Liu, Tian and Zhao, Jing and Liu, Man and Tu, Wenxiao and Chen, Chuding and Jin, Lianmei and Yang, Rui and Wang, Qi and Zhou, Suhua and Wang, Rui and Liu, Hui and Luo, Yinbo and Liu, Yuan and Shao, Ge and Li, Huan and Tao, Zhongfa and Yang, Yang and Deng, Zhiqiang and Liu, Boxi and Ma, Zhitao and Zhang, Yanping and Shi, Guoqing and Lam, Tommy T.Y. and Wu, Joseph T. and Gao, George F. and Cowling, Benjamin J. and Yang, Bo and Leung, Gabriel M. and Feng, Zijian},
+    title = {Early Transmission Dynamics in Wuhan, China, of Novel Coronavirus–Infected Pneumonia},
+    journal = {New England Journal of Medicine},
+    volume = {0},
+    number = {0},
+    pages = {null},
+    year = {0},
+    doi = {10.1056/NEJMoa2001316},
+    URL = {https://doi.org/10.1056/NEJMoa2001316},
+    eprint = {https://doi.org/10.1056/NEJMoa2001316}
 }
 2, 武汉病毒所. @article {Zhou2020.01.22.914952,
-	author = {Zhou, Peng and Yang, Xing-Lou and Wang, Xian-Guang and Hu, Ben and Zhang, Lei and Zhang, Wei and Si, Hao-Rui and Zhu, Yan and Li, Bei and Huang, Chao-Lin and Chen, Hui-Dong and Chen, Jing and Luo, Yun and Guo, Hua and Jiang, Ren-Di and Liu, Mei-Qin and Chen, Ying and Shen, Xu-Rui and Wang, Xi and Zheng, Xiao-Shuang and Zhao, Kai and Chen, Quan-Jiao and Deng, Fei and Liu, Lin-Lin and Yan, Bing and Zhan, Fa-Xian and Wang, Yan-Yi and Xiao, Gengfu and Shi, Zheng-Li},
-	title = {Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin},
-	elocation-id = {2020.01.22.914952},
-	year = {2020},
-	doi = {10.1101/2020.01.22.914952},
-	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {Since the SARS outbreak 18 years ago, a large number of severe acute respiratory syndrome related coronaviruses (SARSr-CoV) have been discovered in their natural reservoir host, bats. Previous studies indicated that some of those bat SARSr-CoVs have the potential to infect humans. Here we report the identification and characterization of a novel coronavirus (nCoV-2019) which caused an epidemic of acute respiratory syndrome in humans, in Wuhan, China. The epidemic, started from December 12th, 2019, has caused 198 laboratory confirmed infections with three fatal cases by January 20th, 2020. Full-length genome sequences were obtained from five patients at the early stage of the outbreak. They are almost identical to each other and share 79.5\% sequence identify to SARS-CoV. Furthermore, it was found that nCoV-2019 is 96\% identical at the whole genome level to a bat coronavirus. The pairwise protein sequence analysis of seven conserved non-structural proteins show that this virus belongs to the species of SARSr-CoV. The nCoV-2019 virus was then isolated from the bronchoalveolar lavage fluid of a critically ill patient, which can be neutralized by sera from several patients. Importantly, we have confirmed that this novel CoV uses the same cell entry receptor, ACE2, as SARS-CoV.},
-	URL = {https://www.biorxiv.org/content/early/2020/01/23/2020.01.22.914952.1},
-	eprint = {https://www.biorxiv.org/content/early/2020/01/23/2020.01.22.914952.1.full.pdf},
-	journal = {bioRxiv}
+    author = {Zhou, Peng and Yang, Xing-Lou and Wang, Xian-Guang and Hu, Ben and Zhang, Lei and Zhang, Wei and Si, Hao-Rui and Zhu, Yan and Li, Bei and Huang, Chao-Lin and Chen, Hui-Dong and Chen, Jing and Luo, Yun and Guo, Hua and Jiang, Ren-Di and Liu, Mei-Qin and Chen, Ying and Shen, Xu-Rui and Wang, Xi and Zheng, Xiao-Shuang and Zhao, Kai and Chen, Quan-Jiao and Deng, Fei and Liu, Lin-Lin and Yan, Bing and Zhan, Fa-Xian and Wang, Yan-Yi and Xiao, Gengfu and Shi, Zheng-Li},
+    title = {Discovery of a novel coronavirus associated with the recent pneumonia outbreak in humans and its potential bat origin},
+    elocation-id = {2020.01.22.914952},
+    year = {2020},
+    doi = {10.1101/2020.01.22.914952},
+    publisher = {Cold Spring Harbor Laboratory},
+    abstract = {Since the SARS outbreak 18 years ago, a large number of severe acute respiratory syndrome related coronaviruses (SARSr-CoV) have been discovered in their natural reservoir host, bats. Previous studies indicated that some of those bat SARSr-CoVs have the potential to infect humans. Here we report the identification and characterization of a novel coronavirus (nCoV-2019) which caused an epidemic of acute respiratory syndrome in humans, in Wuhan, China. The epidemic, started from December 12th, 2019, has caused 198 laboratory confirmed infections with three fatal cases by January 20th, 2020. Full-length genome sequences were obtained from five patients at the early stage of the outbreak. They are almost identical to each other and share 79.5\% sequence identify to SARS-CoV. Furthermore, it was found that nCoV-2019 is 96\% identical at the whole genome level to a bat coronavirus. The pairwise protein sequence analysis of seven conserved non-structural proteins show that this virus belongs to the species of SARSr-CoV. The nCoV-2019 virus was then isolated from the bronchoalveolar lavage fluid of a critically ill patient, which can be neutralized by sera from several patients. Importantly, we have confirmed that this novel CoV uses the same cell entry receptor, ACE2, as SARS-CoV.},
+    URL = {https://www.biorxiv.org/content/early/2020/01/23/2020.01.22.914952.1},
+    eprint = {https://www.biorxiv.org/content/early/2020/01/23/2020.01.22.914952.1.full.pdf},
+    journal = {bioRxiv}
 }
 3, 广东CDC - SARS. @article {1666,
-	author = {,},
-	title = {Molecular Evolution of the SARS Coronavirus During the Course of the SARS Epidemic in China},
-	volume = {303},
-	number = {5664},
-	pages = {1666--1669},
-	year = {2004},
-	doi = {10.1126/science.1092002},
-	publisher = {American Association for the Advancement of Science},
-	abstract = {Sixty-one SARS coronavirus genomic sequences derived from the early, middle, and late phases of the severe acute respiratory syndrome (SARS) epidemic were analyzed together with two viral sequences from palm civets. Genotypes characteristic of each phase were discovered, and the earliest genotypes were similar to the animal SARS-like coronaviruses. Major deletions were observed in the Orf8 region of the genome, both at the start and the end of the epidemic. The neutral mutation rate of the viral genome was constant but the amino acid substitution rate of the coding sequences slowed during the course of the epidemic. The spike protein showed the strongest initial responses to positive selection pressures, followed by subsequent purifying selection and eventual stabilization.},
-	issn = {0036-8075},
-	URL = {https://science.sciencemag.org/content/303/5664/1666},
-	eprint = {https://science.sciencemag.org/content/303/5664/1666.full.pdf},
-	journal = {Science}
+    author = {,},
+    title = {Molecular Evolution of the SARS Coronavirus During the Course of the SARS Epidemic in China},
+    volume = {303},
+    number = {5664},
+    pages = {1666--1669},
+    year = {2004},
+    doi = {10.1126/science.1092002},
+    publisher = {American Association for the Advancement of Science},
+    abstract = {Sixty-one SARS coronavirus genomic sequences derived from the early, middle, and late phases of the severe acute respiratory syndrome (SARS) epidemic were analyzed together with two viral sequences from palm civets. Genotypes characteristic of each phase were discovered, and the earliest genotypes were similar to the animal SARS-like coronaviruses. Major deletions were observed in the Orf8 region of the genome, both at the start and the end of the epidemic. The neutral mutation rate of the viral genome was constant but the amino acid substitution rate of the coding sequences slowed during the course of the epidemic. The spike protein showed the strongest initial responses to positive selection pressures, followed by subsequent purifying selection and eventual stabilization.},
+    issn = {0036-8075},
+    URL = {https://science.sciencemag.org/content/303/5664/1666},
+    eprint = {https://science.sciencemag.org/content/303/5664/1666.full.pdf},
+    journal = {Science}
 }
 4, 钟南山团队. @article {Guan2020.02.06.20020974,
-	author = {Guan, Wei-jie and Ni, Zheng-yi and Hu, Yu and Liang, Wen-hua and Ou, Chun-quan and He, Jian-xing and Liu, Lei and Shan, Hong and Lei, Chun-liang and Hui, David SC and Du, Bin and Li, Lan-juan and Zeng, Guang and Yuen, Kowk-Yung and Chen, Ru-chong and Tang, Chun-li and Wang, Tao and Chen, Ping-yan and Xiang, Jie and Li, Shi-yue and Wang, Jin-lin and Liang, Zi-jing and Peng, Yi-xiang and Wei, Li and Liu, Yong and Hu, Ya-hua and Peng, Peng and Wang, Jian-ming and Liu, Ji-yang and Chen, Zhong and Li, Gang and Zheng, Zhi-jian and Qiu, Shao-qin and Luo, Jie and Ye, Chang-jiang and Zhu, Shao-yong and Zhong, Nan-shan},
-	title = {Clinical characteristics of 2019 novel coronavirus infection in China},
-	elocation-id = {2020.02.06.20020974},
-	year = {2020},
-	doi = {10.1101/2020.02.06.20020974},
-	publisher = {Cold Spring Harbor Laboratory Press},
-	abstract = {Background: Since December 2019, acute respiratory disease (ARD) due to 2019 novel coronavirus (2019-nCoV) emerged in Wuhan city and rapidly spread throughout China. We sought to delineate the clinical characteristics of these cases. Methods: We extracted the data on 1,099 patients with laboratory-confirmed 2019-nCoV ARD from 552 hospitals in 31 provinces/provincial municipalities through January 29th, 2020. Results: The median age was 47.0 years, and 41.90\% were females. Only 1.18\% of patients had a direct contact with wildlife, whereas 31.30\% had been to Wuhan and 71.80\% had contacted with people from Wuhan. Fever (87.9\%) and cough (67.7\%) were the most common symptoms. Diarrhea is uncommon. The median incubation period was 3.0 days (range, 0 to 24.0 days). On admission, ground-glass opacity was the typical radiological finding on chest computed tomography (50.00\%). Significantly more severe cases were diagnosed by symptoms plus reverse-transcriptase polymerase-chain-reaction without abnormal radiological findings than non-severe cases (23.87\% vs. 5.20\%, P\&amp;amp;lt;0.001). Lymphopenia was observed in 82.1\% of patients. 55 patients (5.00\%) were admitted to intensive care unit and 15 (1.36\%) succumbed. Severe pneumonia was independently associated with either the admission to intensive care unit, mechanical ventilation, or death in multivariate competing-risk model (sub-distribution hazards ratio, 9.80; 95\% confidence interval, 4.06 to 23.67). Conclusions: The 2019-nCoV epidemic spreads rapidly by human-to-human transmission. Normal radiologic findings are present among some patients with 2019-nCoV infection. The disease severity (including oxygen saturation, respiratory rate, blood leukocyte/lymphocyte count and chest X-ray/CT manifestations) predict poor clinical outcomes.Competing Interest StatementThe authors have declared no competing interest.Clinical TrialNAFunding StatementSupported by Ministry of Science and Technology, National Health Commission, National Natural Science Foundation, Department of Science and Technology of Guangdong Province.Author DeclarationsAll relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.YesAll necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesData will be made available upon request to the corresponding author.},
-	URL = {https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974},
-	eprint = {https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974.full.pdf},
-	journal = {medRxiv}
+    author = {Guan, Wei-jie and Ni, Zheng-yi and Hu, Yu and Liang, Wen-hua and Ou, Chun-quan and He, Jian-xing and Liu, Lei and Shan, Hong and Lei, Chun-liang and Hui, David SC and Du, Bin and Li, Lan-juan and Zeng, Guang and Yuen, Kowk-Yung and Chen, Ru-chong and Tang, Chun-li and Wang, Tao and Chen, Ping-yan and Xiang, Jie and Li, Shi-yue and Wang, Jin-lin and Liang, Zi-jing and Peng, Yi-xiang and Wei, Li and Liu, Yong and Hu, Ya-hua and Peng, Peng and Wang, Jian-ming and Liu, Ji-yang and Chen, Zhong and Li, Gang and Zheng, Zhi-jian and Qiu, Shao-qin and Luo, Jie and Ye, Chang-jiang and Zhu, Shao-yong and Zhong, Nan-shan},
+    title = {Clinical characteristics of 2019 novel coronavirus infection in China},
+    elocation-id = {2020.02.06.20020974},
+    year = {2020},
+    doi = {10.1101/2020.02.06.20020974},
+    publisher = {Cold Spring Harbor Laboratory Press},
+    abstract = {Background: Since December 2019, acute respiratory disease (ARD) due to 2019 novel coronavirus (2019-nCoV) emerged in Wuhan city and rapidly spread throughout China. We sought to delineate the clinical characteristics of these cases. Methods: We extracted the data on 1,099 patients with laboratory-confirmed 2019-nCoV ARD from 552 hospitals in 31 provinces/provincial municipalities through January 29th, 2020. Results: The median age was 47.0 years, and 41.90\% were females. Only 1.18\% of patients had a direct contact with wildlife, whereas 31.30\% had been to Wuhan and 71.80\% had contacted with people from Wuhan. Fever (87.9\%) and cough (67.7\%) were the most common symptoms. Diarrhea is uncommon. The median incubation period was 3.0 days (range, 0 to 24.0 days). On admission, ground-glass opacity was the typical radiological finding on chest computed tomography (50.00\%). Significantly more severe cases were diagnosed by symptoms plus reverse-transcriptase polymerase-chain-reaction without abnormal radiological findings than non-severe cases (23.87\% vs. 5.20\%, P\&amp;amp;lt;0.001). Lymphopenia was observed in 82.1\% of patients. 55 patients (5.00\%) were admitted to intensive care unit and 15 (1.36\%) succumbed. Severe pneumonia was independently associated with either the admission to intensive care unit, mechanical ventilation, or death in multivariate competing-risk model (sub-distribution hazards ratio, 9.80; 95\% confidence interval, 4.06 to 23.67). Conclusions: The 2019-nCoV epidemic spreads rapidly by human-to-human transmission. Normal radiologic findings are present among some patients with 2019-nCoV infection. The disease severity (including oxygen saturation, respiratory rate, blood leukocyte/lymphocyte count and chest X-ray/CT manifestations) predict poor clinical outcomes.Competing Interest StatementThe authors have declared no competing interest.Clinical TrialNAFunding StatementSupported by Ministry of Science and Technology, National Health Commission, National Natural Science Foundation, Department of Science and Technology of Guangdong Province.Author DeclarationsAll relevant ethical guidelines have been followed; any necessary IRB and/or ethics committee approvals have been obtained and details of the IRB/oversight body are included in the manuscript.YesAll necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).Yes I have followed all appropriate research reporting guidelines and uploaded the relevant EQUATOR Network research reporting checklist(s) and other pertinent material as supplementary files, if applicable.YesData will be made available upon request to the corresponding author.},
+    URL = {https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974},
+    eprint = {https://www.medrxiv.org/content/early/2020/02/09/2020.02.06.20020974.full.pdf},
+    journal = {medRxiv}
 }
-5, 武汉病毒所. Wang, M., Cao, R., Zhang, L. et al. Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro. Cell Res (2020). https://doi.org/10.1038/s41422-020-0282-0 
+5, 武汉病毒所. Wang, M., Cao, R., Zhang, L. et al. Remdesivir and chloroquine effectively inhibit the recently emerged novel coronavirus (2019-nCoV) in vitro. Cell Res (2020). https://doi.org/10.1038/s41422-020-0282-0
+6, WHO. Report of the WHO-China Joint Mission on Coronavirus Disease 2019 (COVID-19). https://www.who.int/docs/default-source/coronaviruse/who-china-joint-mission-on-covid-19-final-report.pdf
+7. @article {doi:10.1056/NEJMoa2001191,
+    author = {Holshue, Michelle L. and DeBolt, Chas and Lindquist, Scott and Lofy, Kathy H. and Wiesman, John and Bruce, Hollianne and Spitters, Christopher and Ericson, Keith and Wilkerson, Sara and Tural, Ahmet and Diaz, George and Cohn, Amanda and Fox, LeAnne and Patel, Anita and Gerber, Susan I. and Kim, Lindsay and Tong, Suxiang and Lu, Xiaoyan and Lindstrom, Steve and Pallansch, Mark A. and Weldon, William C. and Biggs, Holly M. and Uyeki, Timothy M. and Pillai, Satish K.},
+    title = {First Case of 2019 Novel Coronavirus in the United States},
+    journal = {New England Journal of Medicine},
+    volume = {382},
+    number = {10},
+    pages = {929-936},
+    year = {2020},
+    doi = {10.1056/NEJMoa2001191},
+    URL = {https://doi.org/10.1056/NEJMoa2001191},
+    eprint = {https://doi.org/10.1056/NEJMoa2001191}
+}
+8. 陈军, 凌云, 席秀红, 等.  洛匹那韦利托那韦和阿比多尔用于治疗新型冠状病毒肺炎的有效性研究 [J] . 中华传染病杂志,2020,38( 00 ): E008-E008. DOI: 10.3760/cma.j.cn311365-20200210-00050
+9. @article {Wrappeabb2507,
+    author = {Wrapp, Daniel and Wang, Nianshuang and Corbett, Kizzmekia S. and Goldsmith, Jory A. and Hsieh, Ching-Lin and Abiona, Olubukola and Graham, Barney S. and McLellan, Jason S.},
+    title = {Cryo-EM structure of the 2019-nCoV spike in the prefusion conformation},
+    elocation-id = {eabb2507},
+    year = {2020},
+    doi = {10.1126/science.abb2507},
+    publisher = {American Association for the Advancement of Science},
+    abstract = {The outbreak of a novel betacoronavirus (2019-nCoV) represents a pandemic threat that has been declared a public health emergency of international concern. The CoV spike (S) glycoprotein is a key target for vaccines, therapeutic antibodies, and diagnostics. To facilitate medical countermeasure (MCM) development, we determined a 3.5 {\r A}-resolution cryo-EM structure of the 2019-nCoV S trimer in the prefusion conformation. The predominant state of the trimer has one of the three receptor-binding domains (RBDs) rotated up in a receptor-accessible conformation. We also show biophysical and structural evidence that the 2019-nCoV S binds ACE2 with higher affinity than SARS-CoV S. Additionally, we tested several published SARS-CoV RBD-specific monoclonal antibodies and found that they do not have appreciable binding to 2019-nCoV S, suggesting antibody cross-reactivity may be limited between the two RBDs. The structure of 2019-nCoV S should enable rapid development and evaluation of MCMs to address the ongoing public health crisis.},
+    issn = {0036-8075},
+    URL = {https://science.sciencemag.org/content/early/2020/02/19/science.abb2507},
+    eprint = {https://science.sciencemag.org/content/early/2020/02/19/science.abb2507.full.pdf},
+    journal = {Science}
+}
+10, Singapore CDC. @article{10.1001/jama.2020.3227,
+    author = {Ong, Sean Wei Xiang and Tan, Yian Kim and Chia, Po Ying and Lee, Tau Hong and Ng, Oon Tek and Wong, Michelle Su Yen and Marimuthu, Kalisvar},
+    title = &amp;quot;{Air, Surface Environmental, and Personal Protective Equipment Contamination by Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2) From a Symptomatic Patient}&amp;quot;,
+    journal = {JAMA},
+    year = {2020},
+    month = {03},
+    abstract = &amp;quot;{Coronaviruses have been implicated in nosocomial outbreaks with environmental contamination as a route of transmission. Similarly, nosocomial transmission of severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has been reported. However, the mode of transmission and extent of environmental contamination are unknown.}&amp;quot;,
+    issn = {0098-7484},
+    doi = {10.1001/jama.2020.3227},
+    url = {https://doi.org/10.1001/jama.2020.3227},
+    eprint = {https://jamanetwork.com/journals/jama/articlepdf/2762692/jama\_ong\_2020\_ld\_200016.pdf},
+}
+11. Letko, M., Marzi, A. &amp;amp; Munster, V. Functional assessment of cell entry and receptor usage for SARS-CoV-2 and other lineage B betacoronaviruses. Nat Microbiol (2020). https://doi.org/10.1038/s41564-020-0688-y
+12. Somerville VS, Braakhuis AJ, Hopkins WG. Effect of Flavonoids on Upper Respiratory Tract Infections and Immune Function: A Systematic Review and Meta-Analysis. Adv Nutr. 2016;7(3):488–497. Published 2016 May 16. doi:10.3945/an.115.010538
 &lt;/code&gt;&lt;/pre&gt;
 &lt;!--kg-card-end: markdown--&gt;&lt;h2 id="-"&gt;写在最后&lt;/h2&gt;&lt;p&gt;从weibo, douban, telegram等各个渠道关注这次ncov事件也已经好久了，从一开始的悲痛愤怒到现在的无可奈何，作为一个（学过一些生物的）普通人在这谣言明天飞的世界我决定从自己开始整理读过的paper和认为可信的一些信息。或许唯一值的欣慰的就是早早往国内寄出了口罩和随便买买股票赚点小钱吧。&lt;/p&gt;&lt;!--kg-card-begin: html--&gt;&lt;table class="result-info" cellspacing="0"&gt;
    &lt;tbody&gt;
@@ -333,7 +414,29 @@
          &lt;td class="context"&gt;[94025] 收寄&lt;/td&gt;
       &lt;/tr&gt;
    &lt;/tbody&gt;
-&lt;/table&gt;&lt;!--kg-card-end: html--&gt;</content:encoded></item><item><title>Learnings from "The Book of Why"</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
+&lt;/table&gt;&lt;!--kg-card-end: html--&gt;&lt;!--kg-card-begin: gallery--&gt;&lt;figure class="kg-card kg-gallery-card kg-width-wide kg-card-hascaption"&gt;&lt;div class="kg-gallery-container"&gt;&lt;div class="kg-gallery-row"&gt;&lt;div class="kg-gallery-image"&gt;&lt;img src="https://blog.chenglin.lu/content/images/2020/03/buy-3.jpg" width="1042" height="2256" alt="2019-nCoV"&gt;&lt;/div&gt;&lt;div class="kg-gallery-image"&gt;&lt;img src="https://blog.chenglin.lu/content/images/2020/03/sell-2.jpg" width="973" height="2106" alt="2019-nCoV"&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;figcaption&gt;纪念一下10x收益&lt;/figcaption&gt;&lt;/figure&gt;&lt;!--kg-card-end: gallery--&gt;&lt;!--kg-card-begin: html--&gt;&lt;!-- TradingView Widget BEGIN --&gt;
+&lt;div class="tradingview-widget-container" style="width: 100%;"&gt;
+  &lt;div id="tradingview_a2e62" style="height: 50vh;"&gt;&lt;/div&gt;
+  &lt;div class="tradingview-widget-copyright"&gt;&lt;a href="https://www.tradingview.com/symbols/NASDAQ-GILD/" rel="noopener" target="_blank"&gt;&lt;span class="blue-text"&gt;GILD Chart&lt;/span&gt;&lt;/a&gt; by TradingView&lt;/div&gt;
+  &lt;script type="text/javascript" src="https://s3.tradingview.com/tv.js"&gt;&lt;/script&gt;
+  &lt;script type="text/javascript"&gt;
+  new TradingView.widget(
+  {
+  "autosize": true,
+  "symbol": "NASDAQ:GILD",
+  "interval": "60",
+  "timezone": "exchange",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "toolbar_bg": "#f1f3f6",
+  "enable_publishing": false,
+  "container_id": "tradingview_a2e62"
+}
+  );
+  &lt;/script&gt;
+&lt;/div&gt;
+&lt;!-- TradingView Widget END --&gt;&lt;!--kg-card-end: html--&gt;</content:encoded></item><item><title>Learnings from "The Book of Why"</title><description>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
 &lt;p&gt;Control for a mediator (e.g., add to a regression model) could block the effect between the treatment and the outcome.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;You should only control for $Z$ if you have a &amp;quot;strong prior reason&amp;quot; ... This &amp;quot;strong prior reason&amp;quot; is nothing more&lt;/p&gt;&lt;/blockquote&gt;</description><link>https://blog.chenglin.lu/learnings-from-the-book-of-why/</link><guid isPermaLink="false">5d054ac765476d5db4678b0d</guid><dc:creator>Chenglin Lu</dc:creator><pubDate>Sat, 15 Jun 2019 19:47:06 GMT</pubDate><media:content url="https://blog.chenglin.lu/content/images/2019/07/emily-morter-8xAA0f9yQnE-unsplash.jpg" medium="image"/><content:encoded>&lt;!--kg-card-begin: markdown--&gt;&lt;h2 id="confounderandmediatorchapter4"&gt;Confounder and Mediator (Chapter 4)&lt;/h2&gt;
