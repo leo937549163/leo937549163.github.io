@@ -21,7 +21,7 @@
     <meta property="og:url" content="https://blog.chenglin.lu/e2-99-a1/">
     <meta property="og:image" content="https://blog.chenglin.lu/content/images/2021/02/FE5FB3BF-D813-469A-9096-A5AC12DDEC27.jpg">
     <meta property="article:published_time" content="2021-02-11T04:09:56.000Z">
-    <meta property="article:modified_time" content="2021-03-02T04:57:03.000Z">
+    <meta property="article:modified_time" content="2021-03-12T05:04:15.000Z">
     <meta property="article:publisher" content="https://www.facebook.com/profile.php?id=100002583928768">
     <meta property="article:author" content="https://www.facebook.com/profile.php?id=100002583928768">
     <meta name="twitter:card" content="summary_large_image">
@@ -66,7 +66,7 @@
     "headline": "♡",
     "url": "https://blog.chenglin.lu/e2-99-a1/",
     "datePublished": "2021-02-11T04:09:56.000Z",
-    "dateModified": "2021-03-02T04:57:03.000Z",
+    "dateModified": "2021-03-12T05:04:15.000Z",
     "image": {
         "@type": "ImageObject",
         "url": "https://blog.chenglin.lu/content/images/2021/02/FE5FB3BF-D813-469A-9096-A5AC12DDEC27.jpg",
@@ -262,11 +262,30 @@
     // Discard the time and time-zone information.
     const date1 = new Date('2021-01-16T22:00:00-05:00');
     const date2 = new Date();
-    const diffTime = Math.abs(date2 - date1);
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    
+    const date1month = date1.getMonth();
+    const date1day = date1.getDay();
+    const date2month = date2.getMonth();
+    const date2day = date1.getDay();
+    
+    var diffTime = Math.abs(date2 - date1);
+    var diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    var diffMonths = date2month - date1month;
+    // console.log("#1");
+      
+    if (date2day > date1day) {
+      const diffDays = date2day - date1day; 
+    } else {
+      diffMonths = diffMonths - 1;
+      diffTime = Math.abs(date2 - date1.setMonth(date2month-1));
+      diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+    }
+      
+    
+    
     const diffHours = Math.floor((diffTime - diffDays * (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     const diffMins = Math.floor((diffTime - diffDays * (1000 * 60 * 60 * 24) - diffHours * (1000 * 60 * 60)) / (1000 * 60));
-    return diffDays.toString() + ' days ' + diffHours.toString() + ' hours ' + diffMins.toString() + ' mins';
+    return diffMonths.toString() + ' months ' + diffDays.toString() + ' days ' + diffHours.toString() + ' hours ' + diffMins.toString() + ' mins';
   }
     
   love_nodes = document.getElementsByClassName('love-days');
