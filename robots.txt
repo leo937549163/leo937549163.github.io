@@ -2,3 +2,4 @@ User-agent: *
 Sitemap: https://blog.chenglin.lu/sitemap.xml
 Disallow: /ghost/
 Disallow: /p/
+Disallow: /email/
