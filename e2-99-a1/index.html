@@ -20,7 +20,7 @@
     <meta property="og:url" content="https://blog.chenglin.lu/e2-99-a1/">
     <meta property="og:image" content="https://blog.chenglin.lu/content/images/2021/02/FE5FB3BF-D813-469A-9096-A5AC12DDEC27.jpg">
     <meta property="article:published_time" content="2021-02-11T04:09:56.000Z">
-    <meta property="article:modified_time" content="2022-01-06T03:12:23.000Z">
+    <meta property="article:modified_time" content="2022-01-06T03:55:13.000Z">
     <meta property="article:author" content="https://www.facebook.com/profile.php?id=100002583928768">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="♡">
@@ -64,7 +64,7 @@
     "headline": "♡",
     "url": "https://blog.chenglin.lu/e2-99-a1/",
     "datePublished": "2021-02-11T04:09:56.000Z",
-    "dateModified": "2022-01-06T03:12:23.000Z",
+    "dateModified": "2022-01-06T03:55:13.000Z",
     "image": {
         "@type": "ImageObject",
         "url": "https://blog.chenglin.lu/content/images/2021/02/FE5FB3BF-D813-469A-9096-A5AC12DDEC27.jpg",
@@ -259,7 +259,7 @@
                         <h4 class="author-name"><a href="../author/chenglin/">Chenglin Lu</a></h4>
                         <div class="byline-meta-content">
                             <time class="byline-meta-date" datetime="2021-02-10">Feb 10, 2021</time>
-                            <span class="byline-reading-time"><span class="bull">•</span> 6 min read</span>
+                            <span class="byline-reading-time"><span class="bull">•</span> 7 min read</span>
                         </div>
                     </div>
                 </section>
@@ -350,9 +350,13 @@
     
     const date1month = date1.getMonth();
     const date1day = date1.getDate();
+    const date1year = date1.getFullYear();
     const date2month = date2.getMonth();
     const date2day = date2.getDate();
+    const date2year = date2.getFullYear();
     
+    var diffYear = date2year - date1year;
+    var diffMonths = date2month - date1month;
     var diffTime = Math.abs(date2 - date1);
     var diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
     const diffHours = Math.floor((diffTime - diffDays * (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -365,11 +369,60 @@
       diffDays = date2day - date1day; 
     } else {
       diffMonths = diffMonths - 1;
-      diffTime = Math.abs(date2 - date1.setMonth(date2month-1));
+      if (diffMonths < 0) {
+          diffMonths += 12;
+          diffYear -= 1;
+      }
+      
+      // adjust date1
+      if (date2month > 1) {
+          date1.setMonth(date2month-1);
+          date1.setFullYear(date2year);
+      } else { // date2month = 1
+          date1.setMonth(11);
+          date1.setFullYear(date2year-1);
+      }
+      diffTime = Math.abs(date2 - date1);
       diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
     }
     
-    return diffMonths.toString() + ' months ' + diffDays.toString() + ' days ' + diffHours.toString() + ' hours ' + diffMins.toString() + ' mins';
+    var strDateDiffInDays = '';
+    if (diffYear > 0) {
+        if (diffYear > 1) {
+            strDateDiffInDays += diffYear.toString() + ' years'
+        } else {
+            strDateDiffInDays += diffYear.toString() + ' year'
+        }
+    }
+    if (diffMonths > 0) {
+        if (diffMonths > 1) {
+            strDateDiffInDays += ' ' + diffMonths.toString() + ' months '
+        } else {
+            strDateDiffInDays += ' ' + diffMonths.toString() + ' month '
+        }
+    }
+    if (diffDays > 0) {
+        if (diffDays > 1) {
+            strDateDiffInDays += ' ' + diffDays.toString() + ' days '
+        } else {
+            strDateDiffInDays += ' ' + diffDays.toString() + ' day '
+        }
+    }
+    if (diffHours > 0) {
+        if (diffHours > 1) {
+            strDateDiffInDays += ' ' + diffHours.toString() + ' hours '
+        } else {
+            strDateDiffInDays += ' ' + diffHours.toString() + ' hour '
+        }
+    }
+    if (diffMins > 0) {
+        if (diffMins > 1) {
+            strDateDiffInDays += ' ' + diffMins.toString() + ' mins '
+        } else {
+            strDateDiffInDays += ' ' + diffMins.toString() + ' min '
+        }
+    }
+    return strDateDiffInDays;
   }
     
   love_node = document.getElementsByClassName('article-image')[0].children[1];
